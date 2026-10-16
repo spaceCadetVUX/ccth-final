@@ -1,0 +1,697 @@
+{
+ "module": "IU01",
+ "questions": [
+  {
+   "topic": "1.1.1 Phần cứng - CPU",
+   "q": "CPU là viết tắt của cụm từ nào?",
+   "options": [
+    "Central Program Unit",
+    "Central Processing Unit",
+    "Computer Peripheral Unit",
+    "Control Processing Utility"
+   ],
+   "answer": 1,
+   "explain": "CPU (Central Processing Unit) là bộ xử lý trung tâm, xử lý lệnh và dữ liệu, thường được gọi là bộ não của máy tính (mục 1.1.1)."
+  },
+  {
+   "topic": "1.1.1 Phần cứng - CPU",
+   "q": "Tốc độ xung nhịp của CPU được đo bằng đơn vị nào?",
+   "options": [
+    "Nano giây (ns)",
+    "Byte",
+    "Bit trên giây (bps)",
+    "Hertz (Hz)"
+   ],
+   "answer": 3,
+   "explain": "Hertz (Hz) đo số chu kỳ xung nhịp mỗi giây; CPU hiện nay thường ghi bằng GHz (mục 1.1.1)."
+  },
+  {
+   "topic": "1.1.1 Phần cứng - Biểu diễn dữ liệu",
+   "q": "Một byte gồm bao nhiêu bit?",
+   "options": [
+    "8 bit",
+    "4 bit",
+    "16 bit",
+    "10 bit"
+   ],
+   "answer": 0,
+   "explain": "Theo giáo trình, một nhóm 8 bit tạo thành 1 byte (mục 1.1.1)."
+  },
+  {
+   "topic": "1.1.1 Phần cứng - Biểu diễn dữ liệu",
+   "q": "Theo cách quy đổi nhị phân của giáo trình, 1 Kilobyte (KB) bằng bao nhiêu byte?",
+   "options": [
+    "1.000 byte",
+    "1.048.576 byte",
+    "1.024 byte",
+    "512 byte"
+   ],
+   "answer": 2,
+   "explain": "1 KB = 1.024 byte; 1 MB = 1.048.576 byte (mục 1.1.1)."
+  },
+  {
+   "topic": "1.1.1 Phần cứng - Biểu diễn dữ liệu",
+   "q": "Theo cách quy đổi nhị phân, 1 Terabyte (TB) bằng bao nhiêu Gigabyte (GB)?",
+   "options": [
+    "512 GB",
+    "1.048.576 GB",
+    "1.024 GB",
+    "2.048 GB"
+   ],
+   "answer": 2,
+   "explain": "Mỗi bậc đơn vị lưu trữ gấp 1.024 lần bậc liền trước nên 1 TB = 1.024 GB (mục 1.1.1)."
+  },
+  {
+   "topic": "1.1.1 Phần cứng - Hệ đếm",
+   "q": "Số nhị phân 1010 có giá trị thập phân là:",
+   "options": [
+    "10",
+    "12",
+    "8",
+    "14"
+   ],
+   "answer": 0,
+   "explain": "1010 (nhị phân) = 1×8 + 0×4 + 1×2 + 0×1 = 10."
+  },
+  {
+   "topic": "1.1.1 Phần cứng - Hệ đếm",
+   "q": "Số thập phân 13 được biểu diễn trong hệ nhị phân là:",
+   "options": [
+    "1011",
+    "1110",
+    "1001",
+    "1101"
+   ],
+   "answer": 3,
+   "explain": "13 = 8 + 4 + 1 nên biểu diễn nhị phân là 1101."
+  },
+  {
+   "topic": "1.1.1 Phần cứng - Hệ đếm",
+   "q": "Số thập lục phân (hexa) 2F có giá trị thập phân là:",
+   "options": [
+    "17",
+    "47",
+    "32",
+    "215"
+   ],
+   "answer": 1,
+   "explain": "2F = 2×16 + 15 = 47."
+  },
+  {
+   "topic": "1.1.1 Phần cứng - Bộ nhớ",
+   "q": "Đặc điểm nào sau đây đúng với bộ nhớ RAM?",
+   "options": [
+    "Chỉ cho phép đọc dữ liệu, không thể ghi",
+    "Giữ nguyên dữ liệu khi tắt nguồn điện",
+    "Mất dữ liệu khi mất nguồn điện (volatile)",
+    "Có dung lượng luôn lớn hơn ổ đĩa cứng"
+   ],
+   "answer": 2,
+   "explain": "RAM lưu tạm thời bản sao chương trình và dữ liệu, có tính bay hơi (volatile) nên thông tin mất khi mất điện (mục 1.1.1)."
+  },
+  {
+   "topic": "1.1.1 Phần cứng - Bộ nhớ",
+   "q": "Loại bộ nhớ nào sau đây vẫn duy trì thông tin khi nguồn điện cấp không còn?",
+   "options": [
+    "ROM",
+    "RAM",
+    "Cache của CPU",
+    "Thanh ghi (register) của CPU"
+   ],
+   "answer": 0,
+   "explain": "Khác với RAM, thông tin trên ROM vẫn được giữ khi mất điện; cache và thanh ghi của CPU đều là bộ nhớ khả biến (mục 1.1.1)."
+  },
+  {
+   "topic": "1.1.1 Phần cứng - Thiết bị lưu trữ",
+   "q": "Thiết bị nào sau đây KHÔNG phải là thiết bị lưu trữ?",
+   "options": [
+    "Ổ đĩa cứng",
+    "Ổ đĩa quang (CD/DVD)",
+    "Thẻ nhớ",
+    "Máy quét (scanner)"
+   ],
+   "answer": 3,
+   "explain": "Máy quét là thiết bị nhập dùng để số hóa hình ảnh; ổ cứng, ổ quang, thẻ nhớ là thiết bị lưu trữ (mục 1.1.1)."
+  },
+  {
+   "topic": "1.1.1 Phần cứng - Thiết bị nhập/xuất",
+   "q": "Thiết bị nào sau đây là thiết bị xuất (output)?",
+   "options": [
+    "Máy quét (scanner)",
+    "Máy chiếu (projector)",
+    "Đầu đọc mã vạch",
+    "Cần điều khiển (joystick)"
+   ],
+   "answer": 1,
+   "explain": "Máy chiếu hiển thị thông tin từ máy tính ra bề mặt/màn chiếu nên là thiết bị xuất; các thiết bị còn lại đưa dữ liệu vào máy tính (mục 1.1.1)."
+  },
+  {
+   "topic": "1.1.1 Phần cứng - Thiết bị nhập/xuất",
+   "q": "Máy in chuyên dụng dùng để in hình ảnh, bản vẽ trên khổ giấy cực lớn được gọi là:",
+   "options": [
+    "Plotter (máy in đồ họa)",
+    "Máy in ảnh",
+    "Máy in kim",
+    "Máy in nhiệt"
+   ],
+   "answer": 0,
+   "explain": "Giáo trình mô tả plotter là máy in chuyên dụng được thiết kế để in hình ảnh trên khổ giấy cực lớn (mục 1.1.1)."
+  },
+  {
+   "topic": "1.1.1 Phần cứng - Cổng kết nối",
+   "q": "Cổng HDMI được dùng chủ yếu để truyền tín hiệu nào?",
+   "options": [
+    "Chỉ tín hiệu âm thanh analog",
+    "Tín hiệu điều khiển ổ đĩa SATA",
+    "Hình ảnh và âm thanh kỹ thuật số độ phân giải cao",
+    "Tín hiệu mạng LAN duy nhất"
+   ],
+   "answer": 2,
+   "explain": "HDMI (High-Definition Multimedia Interface) truyền hình ảnh và âm thanh số độ phân giải cao qua một cáp (mục 1.1.1)."
+  },
+  {
+   "topic": "1.1.1 Phần cứng - Phân loại thiết bị",
+   "q": "Theo giáo trình, thiết bị nào sau đây thuộc nhóm thiết bị cầm tay?",
+   "options": [
+    "Desktop",
+    "Laptop",
+    "Netbook",
+    "Tablet"
+   ],
+   "answer": 3,
+   "explain": "Giáo trình xếp Tablet, Smartphone, Smartwatch vào thiết bị cầm tay; Desktop, Laptop, Notebook, Netbook thuộc máy tính cá nhân (mục 1.1.1)."
+  },
+  {
+   "topic": "1.1.2 Phần mềm máy tính",
+   "q": "Phần mềm nào sau đây là phần mềm hệ thống?",
+   "options": [
+    "Microsoft Word",
+    "Linux",
+    "Adobe Photoshop",
+    "Windows Media Player"
+   ],
+   "answer": 1,
+   "explain": "Linux là hệ điều hành thuộc nhóm phần mềm hệ thống; Word, Photoshop, Windows Media Player là phần mềm ứng dụng (mục 1.1.2)."
+  },
+  {
+   "topic": "1.1.2 Phần mềm máy tính",
+   "q": "Bộ phần mềm văn phòng (Office Software) như Microsoft Word, Excel thuộc nhóm nào?",
+   "options": [
+    "Phần mềm hệ thống",
+    "Firmware",
+    "Phần mềm ứng dụng",
+    "Trình điều khiển thiết bị (driver)"
+   ],
+   "answer": 2,
+   "explain": "Office Software là phần mềm ứng dụng, giúp người dùng thực hiện công việc trên máy tính nhanh chóng, dễ dàng (mục 1.1.2)."
+  },
+  {
+   "topic": "1.1.2 Phần mềm máy tính",
+   "q": "Vai trò chính của phần mềm hệ thống là gì?",
+   "options": [
+    "Điều khiển phần cứng và làm nền để các phần mềm ứng dụng hoạt động",
+    "Hỗ trợ người dùng soạn thảo, định dạng và in các loại văn bản",
+    "Chuyên xử lý hình ảnh, đồ họa và thiết kế bản vẽ kỹ thuật",
+    "Chỉ dùng để phát nhạc, xem phim và giải trí đa phương tiện"
+   ],
+   "answer": 0,
+   "explain": "Phần mềm hệ thống điều khiển phần cứng, các thiết bị chuyên dụng và là nền cho các ứng dụng khác hoạt động (mục 1.1.2)."
+  },
+  {
+   "topic": "1.1.2 Phần mềm máy tính",
+   "q": "Đặc điểm cốt lõi của phần mềm mã nguồn mở (open source) là gì?",
+   "options": [
+    "Bắt buộc trả phí bản quyền cho mỗi máy cài đặt",
+    "Chỉ chạy được trên hệ điều hành Linux",
+    "Chỉ được dùng thử trong một khoảng thời gian nhất định",
+    "Mã nguồn được công khai để người dùng xem, sửa đổi và phân phối theo giấy phép"
+   ],
+   "answer": 3,
+   "explain": "Phần mềm mã nguồn mở công khai mã nguồn; quyền xem, sửa, phân phối được quy định bởi giấy phép (mục 1.1.2)."
+  },
+  {
+   "topic": "1.1.2 Phần mềm máy tính",
+   "q": "Phần mềm cho dùng thử trong thời hạn hoặc với chức năng giới hạn, sau đó phải trả phí để dùng đầy đủ thuộc loại nào?",
+   "options": [
+    "Freeware (phần mềm miễn phí)",
+    "Shareware (phần mềm chia sẻ)",
+    "Phần mềm mã nguồn mở",
+    "Adware"
+   ],
+   "answer": 1,
+   "explain": "Shareware cho dùng thử miễn phí có giới hạn về thời gian hoặc tính năng, muốn dùng đầy đủ phải mua bản quyền (mục 1.1.2)."
+  },
+  {
+   "topic": "1.1.3 Hiệu năng máy tính",
+   "q": "Yếu tố nào sau đây KHÔNG phải là yếu tố trực tiếp quyết định hiệu năng xử lý của máy tính?",
+   "options": [
+    "Kích thước (inch) của màn hình",
+    "Tốc độ bộ xử lý trung tâm (CPU)",
+    "Dung lượng bộ nhớ (RAM)",
+    "Tốc độ ổ cứng"
+   ],
+   "answer": 0,
+   "explain": "Giáo trình nêu 4 yếu tố hiệu năng: tốc độ CPU, dung lượng bộ nhớ, tốc độ ổ cứng, tốc độ mạch tăng tốc đồ họa; kích thước màn hình không nằm trong đó (mục 1.1.3)."
+  },
+  {
+   "topic": "1.1.3 Hiệu năng máy tính",
+   "q": "Thay ổ cứng HDD bằng ổ SSD chủ yếu giúp cải thiện điều gì?",
+   "options": [
+    "Tần số xung nhịp của CPU",
+    "Độ phân giải màn hình",
+    "Tốc độ khởi động và tốc độ đọc/ghi dữ liệu",
+    "Dung lượng bộ nhớ ROM"
+   ],
+   "answer": 2,
+   "explain": "SSD không có bộ phận cơ khí nên truy xuất và truyền dữ liệu nhanh hơn HDD, liên quan yếu tố tốc độ ổ cứng (mục 1.1.3)."
+  },
+  {
+   "topic": "1.1.3 Hiệu năng máy tính",
+   "q": "Khi RAM không đủ cho các chương trình đang chạy, hệ điều hành dùng một phần ổ cứng làm bộ nhớ ảo (swap/pagefile). Hệ quả thường thấy là gì?",
+   "options": [
+    "Tốc độ xung nhịp CPU tăng lên",
+    "Dung lượng ổ cứng tự động tăng",
+    "Các tập tin trên ổ cứng bị xóa",
+    "Máy chạy chậm đi vì ổ cứng chậm hơn RAM đáng kể"
+   ],
+   "answer": 3,
+   "explain": "Ổ cứng có tốc độ truy xuất thấp hơn RAM nhiều nên dùng bộ nhớ ảo làm giảm hiệu năng (mục 1.1.3)."
+  },
+  {
+   "topic": "1.1.4 Mạng máy tính và truyền thông",
+   "q": "Mạng LAN (Local Area Network) là mạng có phạm vi như thế nào?",
+   "options": [
+    "Toàn cầu, kết nối nhiều quốc gia",
+    "Khu vực hẹp như một tòa nhà, văn phòng hoặc khuôn viên",
+    "Liên tỉnh, kết nối các thành phố lớn",
+    "Chỉ trong phạm vi một thiết bị"
+   ],
+   "answer": 1,
+   "explain": "LAN là mạng cục bộ trong phạm vi địa lý nhỏ; MAN cỡ đô thị; WAN cỡ quốc gia/quốc tế (mục 1.1.4)."
+  },
+  {
+   "topic": "1.1.4 Mạng máy tính và truyền thông",
+   "q": "Mạng bao phủ phạm vi địa lý rất rộng (quốc gia, quốc tế), điển hình là Internet, thuộc loại nào?",
+   "options": [
+    "LAN",
+    "MAN",
+    "WAN",
+    "PAN"
+   ],
+   "answer": 2,
+   "explain": "WAN (Wide Area Network) là mạng diện rộng, Internet là ví dụ điển hình (mục 1.1.4)."
+  },
+  {
+   "topic": "1.1.4 Mạng máy tính và truyền thông",
+   "q": "Đường truyền có tốc độ 100 Mbps thì tốc độ tải dữ liệu tối đa lý thuyết xấp xỉ bao nhiêu MB/s? (1 byte = 8 bit)",
+   "options": [
+    "12,5 MB/s",
+    "100 MB/s",
+    "800 MB/s",
+    "1,25 MB/s"
+   ],
+   "answer": 0,
+   "explain": "Tốc độ đường truyền tính bằng bit/giây nên 100 Mbps ÷ 8 = 12,5 MB/s (mục 1.1.4)."
+  },
+  {
+   "topic": "1.1.4 Mạng máy tính và truyền thông",
+   "q": "Thiết bị mạng nào định tuyến gói tin giữa các mạng khác nhau và thường dùng để nối mạng LAN ra Internet?",
+   "options": [
+    "Hub",
+    "Repeater",
+    "Switch (lớp 2)",
+    "Router"
+   ],
+   "answer": 3,
+   "explain": "Router chọn đường và chuyển gói tin giữa các mạng khác nhau; hub, repeater và switch lớp 2 hoạt động trong cùng một mạng (mục 1.1.4)."
+  },
+  {
+   "topic": "1.1.4 Mạng máy tính và truyền thông",
+   "q": "Nhà cung cấp dịch vụ Internet (ISP) là đơn vị nào?",
+   "options": [
+    "Đơn vị sản xuất phần mềm diệt virus",
+    "Đơn vị cung cấp dịch vụ kết nối và truy cập Internet cho người dùng",
+    "Đơn vị duy nhất cấp phát tên miền cho toàn thế giới",
+    "Cơ quan kiểm duyệt nội dung của mọi trang web"
+   ],
+   "answer": 1,
+   "explain": "ISP (Internet Service Provider) cung cấp đường truyền và dịch vụ truy cập Internet, ví dụ VNPT, Viettel, FPT (mục 1.1.4)."
+  },
+  {
+   "topic": "1.2 Ứng dụng của CNTT-TT",
+   "q": "Hoạt động mua bán hàng hóa, dịch vụ thông qua Internet được gọi là gì?",
+   "options": [
+    "E-Government",
+    "E-Banking",
+    "E-Commerce",
+    "Tele-working"
+   ],
+   "answer": 2,
+   "explain": "E-Commerce là thương mại điện tử: mua bán hàng hóa, dịch vụ trên môi trường mạng (mục 1.2)."
+  },
+  {
+   "topic": "1.2 Ứng dụng của CNTT-TT",
+   "q": "Chuyển khoản và tra cứu số dư tài khoản bằng ứng dụng ngân hàng trên điện thoại thuộc loại ứng dụng nào?",
+   "options": [
+    "E-Banking",
+    "E-Government",
+    "Tele-conference",
+    "E-Commerce"
+   ],
+   "answer": 0,
+   "explain": "E-Banking (ngân hàng điện tử) cho phép thực hiện giao dịch ngân hàng qua Internet/di động (mục 1.2)."
+  },
+  {
+   "topic": "1.2 Ứng dụng của CNTT-TT",
+   "q": "Hình thức họp trực tuyến giữa các thành viên ở nhiều địa điểm khác nhau, có cả âm thanh và hình ảnh qua mạng, là gì?",
+   "options": [
+    "Tele-working",
+    "E-Mail",
+    "SMS",
+    "Tele-conference"
+   ],
+   "answer": 3,
+   "explain": "Tele-conference là hội nghị từ xa; Tele-working là làm việc từ xa, không nhất thiết là cuộc họp (mục 1.2)."
+  },
+  {
+   "topic": "1.2 Ứng dụng của CNTT-TT",
+   "q": "VoIP là công nghệ dùng để làm gì?",
+   "options": [
+    "Gửi thư điện tử kèm tập tin",
+    "Truyền thoại (cuộc gọi) qua mạng IP/Internet",
+    "Bảo vệ máy tính trước mã độc",
+    "Nén tập tin âm thanh để lưu trữ"
+   ],
+   "answer": 1,
+   "explain": "VoIP (Voice over IP) truyền tín hiệu thoại dưới dạng gói dữ liệu qua mạng IP/Internet (mục 1.2)."
+  },
+  {
+   "topic": "1.2 Ứng dụng của CNTT-TT",
+   "q": "Công dân nộp hồ sơ, tra cứu thủ tục hành chính qua cổng dịch vụ công trực tuyến là ví dụ của ứng dụng nào?",
+   "options": [
+    "E-Government (chính phủ điện tử)",
+    "E-Commerce",
+    "Tele-working",
+    "VoIP"
+   ],
+   "answer": 0,
+   "explain": "E-Government là việc cơ quan nhà nước cung cấp thông tin và dịch vụ công cho người dân, doanh nghiệp qua môi trường mạng (mục 1.2)."
+  },
+  {
+   "topic": "1.3 An toàn lao động, bảo vệ môi trường",
+   "q": "Bệnh/triệu chứng nào sau đây thường gặp ở người làm việc với máy tính nhiều giờ liên tục và sai tư thế?",
+   "options": [
+    "Bệnh bụi phổi silic",
+    "Nhiễm độc chì",
+    "Mỏi mắt, đau vai gáy và cột sống",
+    "Điếc do tiếng ồn cường độ rất cao"
+   ],
+   "answer": 2,
+   "explain": "Làm việc lâu, sai tư thế gây mỏi mắt và các bệnh cơ xương khớp vùng cổ, vai, gáy, lưng; các bệnh còn lại đặc trưng ngành nghề khác (mục 1.3)."
+  },
+  {
+   "topic": "1.3 An toàn lao động, bảo vệ môi trường",
+   "q": "Để giảm mỏi mắt và đau cổ khi làm việc với máy tính, cạnh trên của màn hình nên được đặt ở vị trí nào so với tầm mắt?",
+   "options": [
+    "Cao hơn tầm mắt khoảng 30 cm",
+    "Cao hơn tầm mắt để phải hơi ngửa cổ",
+    "Thấp hơn tầm ngực",
+    "Ngang hoặc thấp hơn tầm mắt một chút"
+   ],
+   "answer": 3,
+   "explain": "Nguyên tắc ergonomics: cạnh trên màn hình ngang hoặc thấp hơn tầm mắt để tránh ngửa cổ và giảm mỏi mắt (mục 1.3)."
+  },
+  {
+   "topic": "1.3 An toàn lao động, bảo vệ môi trường",
+   "q": "Pin, bo mạch và linh kiện điện tử hỏng chứa kim loại nặng (chì, thủy ngân, cadmium...). Cách xử lý phù hợp là gì?",
+   "options": [
+    "Bỏ chung vào thùng rác sinh hoạt để thu gom cùng lúc",
+    "Thu gom và đưa đến điểm tiếp nhận hoặc đơn vị tái chế chuyên biệt",
+    "Chôn xuống đất trong khuôn viên nhà",
+    "Đốt cùng rác sinh hoạt để giảm thể tích"
+   ],
+   "answer": 1,
+   "explain": "Rác thải điện tử chứa chất độc hại nên phải được thu gom và xử lý/tái chế riêng, không thải chung với rác sinh hoạt (mục 1.3)."
+  },
+  {
+   "topic": "1.3 An toàn lao động, bảo vệ môi trường",
+   "q": "Biện pháp nào sau đây giúp tiết kiệm điện năng khi sử dụng máy tính?",
+   "options": [
+    "Luôn đặt độ sáng màn hình ở mức tối đa",
+    "Để máy chạy liên tục 24/7 ở chế độ hiệu năng cao",
+    "Đặt chế độ tự tắt màn hình/Sleep khi không sử dụng",
+    "Dùng màn hình bảo vệ (screensaver) động thay cho việc tắt màn hình"
+   ],
+   "answer": 2,
+   "explain": "Tự tắt màn hình hoặc chuyển Sleep khi nhàn rỗi giảm điện năng tiêu thụ; screensaver động không tiết kiệm điện (mục 1.3)."
+  },
+  {
+   "topic": "1.4 An toàn thông tin",
+   "q": "Mật khẩu nào sau đây là mật khẩu mạnh nhất?",
+   "options": [
+    "T7#kR!9pLw$e",
+    "P@ssw0rd",
+    "Nguyen1990",
+    "qwerty123"
+   ],
+   "answer": 0,
+   "explain": "Mật khẩu mạnh dài, ngẫu nhiên, kết hợp chữ hoa/thường, số, ký hiệu và không chứa từ thông dụng hay thông tin cá nhân (mục 1.4)."
+  },
+  {
+   "topic": "1.4 An toàn thông tin",
+   "q": "Chức năng chính của tường lửa (firewall) là gì?",
+   "options": [
+    "Tăng tốc độ xử lý của CPU",
+    "Tự động sao lưu dữ liệu lên đám mây",
+    "Nén dữ liệu trước khi truyền qua mạng",
+    "Kiểm soát, lọc lưu lượng mạng vào/ra theo các quy tắc định trước"
+   ],
+   "answer": 3,
+   "explain": "Tường lửa (của hệ điều hành hoặc phần mềm) cho phép hay chặn lưu lượng mạng theo quy tắc, bảo vệ máy tính khỏi truy cập trái phép (mục 1.4)."
+  },
+  {
+   "topic": "1.4 An toàn thông tin",
+   "q": "Quy tắc sao lưu dữ liệu 3-2-1 là gì?",
+   "options": [
+    "3 bản sao trên cùng 1 ổ đĩa, sao lưu 2 lần mỗi ngày",
+    "3 bản sao dữ liệu, trên 2 loại phương tiện lưu trữ khác nhau, trong đó 1 bản đặt ở vị trí khác",
+    "3 ổ cứng, 2 mật khẩu và 1 phần mềm diệt virus",
+    "Sao lưu 3 lần mỗi tuần, 2 lần mỗi tháng, 1 lần mỗi năm"
+   ],
+   "answer": 1,
+   "explain": "Quy tắc 3-2-1 là thực hành chuẩn cho sao lưu dự phòng (ổ cứng ngoài, DVD, USB, đám mây) như giáo trình nêu (mục 1.4)."
+  },
+  {
+   "topic": "1.4 An toàn thông tin",
+   "q": "Loại mã độc có khả năng tự nhân bản và lây lan qua mạng mà không cần gắn vào tập tin chủ là:",
+   "options": [
+    "Spyware",
+    "Adware",
+    "Worm",
+    "Trojan"
+   ],
+   "answer": 2,
+   "explain": "Worm tự sao chép và lan truyền qua mạng độc lập; Trojan ngụy trang chứ không tự nhân bản (mục 1.4)."
+  },
+  {
+   "topic": "1.4 An toàn thông tin",
+   "q": "Phần mềm lén theo dõi hoạt động của người dùng (thói quen duyệt web, thông tin đăng nhập) rồi gửi cho bên thứ ba là:",
+   "options": [
+    "Spyware",
+    "Adware",
+    "Worm",
+    "Virus"
+   ],
+   "answer": 0,
+   "explain": "Spyware là phần mềm gián điệp thu thập thông tin người dùng; Adware chủ yếu hiển thị quảng cáo (mục 1.4)."
+  },
+  {
+   "topic": "1.5 Pháp luật trong sử dụng CNTT",
+   "q": "Theo Luật Sở hữu trí tuệ của Việt Nam, chương trình máy tính được bảo hộ như:",
+   "options": [
+    "Sáng chế",
+    "Nhãn hiệu",
+    "Kiểu dáng công nghiệp",
+    "Tác phẩm văn học (quyền tác giả)"
+   ],
+   "answer": 3,
+   "explain": "Luật Sở hữu trí tuệ bảo hộ chương trình máy tính như tác phẩm văn học, dù ở dạng mã nguồn hay mã máy (mục 1.5)."
+  },
+  {
+   "topic": "1.5 Pháp luật trong sử dụng CNTT",
+   "q": "Cài đặt và sử dụng bản phần mềm thương mại đã bị bẻ khóa (crack) mà không có giấy phép là hành vi gì?",
+   "options": [
+    "Hợp pháp nếu chỉ dùng cá nhân, không kinh doanh",
+    "Vi phạm bản quyền phần mềm",
+    "Được phép nếu phần mềm đã ngừng cập nhật",
+    "Hợp pháp nếu tải từ website nước ngoài"
+   ],
+   "answer": 1,
+   "explain": "Sử dụng phần mềm khi không có giấy phép của chủ sở hữu là vi phạm bản quyền, bất kể mục đích hay nguồn tải (mục 1.5)."
+  },
+  {
+   "topic": "1.5 Pháp luật trong sử dụng CNTT",
+   "q": "Hành vi nào sau đây thể hiện sự tôn trọng dữ liệu của người khác?",
+   "options": [
+    "Mở xem tập tin cá nhân trên máy đồng nghiệp đang bỏ quên chưa khóa",
+    "Chia sẻ danh sách thông tin liên hệ của khách hàng cho người quen khi họ nhờ",
+    "Chỉ truy cập, sao chép hoặc chia sẻ dữ liệu khi được chủ sở hữu cho phép",
+    "Dùng chung tài khoản đăng nhập của người khác cho tiện công việc"
+   ],
+   "answer": 2,
+   "explain": "Tôn trọng dữ liệu của người khác nghĩa là không truy cập, sao chép, phát tán khi chưa được phép, phù hợp quy định bảo vệ dữ liệu cá nhân, tổ chức (mục 1.5)."
+  }
+ ],
+ "cards": [
+  {
+   "topic": "1.1.1 Phần cứng",
+   "front": "CPU (Central Processing Unit) là gì?",
+   "back": "Bộ xử lý trung tâm, tiếp nhận và xử lý lệnh cùng dữ liệu đầu vào; được gọi là bộ não của máy tính, là bộ phận quan trọng và đắt tiền nhất."
+  },
+  {
+   "topic": "1.1.1 Phần cứng",
+   "front": "Hertz (Hz) đo đại lượng nào?",
+   "back": "Tốc độ xung nhịp, tức số chu kỳ mỗi giây; CPU thường ghi bằng MHz hoặc GHz."
+  },
+  {
+   "topic": "1.1.1 Phần cứng",
+   "front": "Bit và byte",
+   "back": "Bit là đơn vị dữ liệu nhỏ nhất (0 hoặc 1); 1 byte = 8 bit."
+  },
+  {
+   "topic": "1.1.1 Phần cứng",
+   "front": "Bảng quy đổi KB, MB, GB, TB (nhị phân)",
+   "back": "1 KB = 1.024 byte; 1 MB = 1.024 KB; 1 GB = 1.024 MB; 1 TB = 1.024 GB."
+  },
+  {
+   "topic": "1.1.1 Phần cứng",
+   "front": "Cách đổi số thập phân sang nhị phân",
+   "back": "Chia liên tiếp cho 2, ghi các số dư rồi đọc ngược từ dưới lên. Ví dụ 13 → 1101."
+  },
+  {
+   "topic": "1.1.1 Phần cứng",
+   "front": "RAM (Random Access Memory)",
+   "back": "Bộ nhớ truy xuất ngẫu nhiên, lưu tạm chương trình và dữ liệu đang chạy; mất dữ liệu khi mất điện (volatile); tốc độ đo bằng nano giây."
+  },
+  {
+   "topic": "1.1.1 Phần cứng",
+   "front": "ROM (Read Only Memory)",
+   "back": "Bộ nhớ chỉ đọc, giữ thông tin khi mất nguồn điện; một số loại cho xóa và lập trình lại nhiều lần."
+  },
+  {
+   "topic": "1.1.1 Phần cứng",
+   "front": "Thiết bị nhập và thiết bị xuất",
+   "back": "Nhập: đưa thông tin vào máy tính (bàn phím, chuột, máy quét, webcam, đầu đọc mã vạch). Xuất: hiển thị thông tin từ máy tính (màn hình, máy in, máy chiếu, plotter)."
+  },
+  {
+   "topic": "1.1.1 Phần cứng",
+   "front": "USB và HDMI viết tắt của gì?",
+   "back": "USB: Universal Serial Bus (cổng nối tiếp đa năng). HDMI: High-Definition Multimedia Interface (truyền hình ảnh và âm thanh số độ phân giải cao)."
+  },
+  {
+   "topic": "1.1.1 Phần cứng",
+   "front": "IDE, SATA, SCSI, MIDI",
+   "back": "IDE: Integrated Drive Electronics. SATA: Serial Advanced Technology Attachment (eSATA là bản cho ổ ngoài). SCSI: Small Computer System Interface. MIDI: cổng kết nối nhạc cụ điện tử."
+  },
+  {
+   "topic": "1.1.2 Phần mềm",
+   "front": "Phần mềm hệ thống và phần mềm ứng dụng",
+   "back": "Hệ thống: điều khiển phần cứng, là nền cho ứng dụng (Windows, Linux, UNIX, macOS, MS-DOS). Ứng dụng: giúp người dùng làm việc hiệu quả (Office, đồ họa, đa phương tiện)."
+  },
+  {
+   "topic": "1.1.2 Phần mềm",
+   "front": "Freeware, Shareware, Open source",
+   "back": "Freeware: dùng miễn phí. Shareware: dùng thử có giới hạn rồi phải trả phí. Open source: công khai mã nguồn, dùng và sửa theo giấy phép."
+  },
+  {
+   "topic": "1.1.3 Hiệu năng",
+   "front": "Bốn yếu tố quyết định hiệu năng máy tính (theo giáo trình)",
+   "back": "Tốc độ CPU; dung lượng bộ nhớ; tốc độ ổ cứng; tốc độ mạch tăng tốc đồ họa."
+  },
+  {
+   "topic": "1.1.4 Mạng máy tính",
+   "front": "Phân biệt LAN, MAN, WAN",
+   "back": "LAN: mạng cục bộ (tòa nhà, văn phòng). MAN: mạng đô thị. WAN: mạng diện rộng (quốc gia, quốc tế), Internet là ví dụ điển hình."
+  },
+  {
+   "topic": "1.1.4 Mạng máy tính",
+   "front": "Đơn vị đo tốc độ đường truyền và cách quy đổi",
+   "back": "bps (bit/giây), Kbps, Mbps, Gbps. Chia 8 để ra byte/giây: 8 Mbps = 1 MB/s."
+  },
+  {
+   "topic": "1.1.4 Mạng máy tính",
+   "front": "ISP là gì?",
+   "back": "Internet Service Provider, nhà cung cấp dịch vụ Internet: cung cấp kết nối và truy cập Internet (ví dụ VNPT, Viettel, FPT)."
+  },
+  {
+   "topic": "1.2 Ứng dụng CNTT-TT",
+   "front": "E-Commerce, E-Banking, E-Government",
+   "back": "Thương mại điện tử (mua bán qua mạng); ngân hàng điện tử (giao dịch ngân hàng qua mạng); chính phủ điện tử (dịch vụ công trực tuyến)."
+  },
+  {
+   "topic": "1.2 Ứng dụng CNTT-TT",
+   "front": "Tele-working và Tele-conference",
+   "back": "Tele-working: làm việc từ xa qua mạng. Tele-conference: hội nghị/họp từ xa có âm thanh, hình ảnh qua mạng."
+  },
+  {
+   "topic": "1.2 Ứng dụng CNTT-TT",
+   "front": "SMS, IM, VoIP",
+   "back": "SMS: Short Message Service (tin nhắn ngắn qua mạng di động). IM: Instant Messaging (nhắn tin tức thời qua Internet). VoIP: truyền thoại qua mạng IP."
+  },
+  {
+   "topic": "1.3 An toàn lao động, môi trường",
+   "front": "Bệnh thường gặp khi dùng máy tính và cách phòng ngừa",
+   "back": "Mỏi mắt, đau vai gáy và cột sống, chấn thương do thao tác lặp lại ở tay. Phòng ngừa: ngồi đúng tư thế, nghỉ giải lao, quy tắc 20-20-20 (mỗi 20 phút nhìn vật cách ~6 m trong 20 giây)."
+  },
+  {
+   "topic": "1.3 An toàn lao động, môi trường",
+   "front": "Rác thải điện tử",
+   "back": "Thiết bị, pin, linh kiện điện tử hỏng/bỏ đi chứa kim loại nặng độc hại; phải thu gom và tái chế riêng, không vứt chung rác sinh hoạt."
+  },
+  {
+   "topic": "1.3 An toàn lao động, môi trường",
+   "front": "Ô nhiễm ánh sáng, tiếng ồn, nhiệt độ tại nơi làm việc CNTT",
+   "back": "Ba dạng ô nhiễm cần kiểm soát; bố trí chiếu sáng hợp lý, giảm ồn và giữ thông thoáng, làm mát phù hợp."
+  },
+  {
+   "topic": "1.4 An toàn thông tin",
+   "front": "Virus, Worm, Trojan khác nhau thế nào?",
+   "back": "Virus: gắn vào tập tin chủ để lây. Worm: tự nhân bản, lây qua mạng độc lập. Trojan: ngụy trang thành phần mềm hữu ích để đánh lừa người dùng."
+  },
+  {
+   "topic": "1.4 An toàn thông tin",
+   "front": "Spyware và Adware",
+   "back": "Spyware: lén thu thập thông tin người dùng gửi đi. Adware: tự hiển thị quảng cáo, thường đi kèm phần mềm khác."
+  },
+  {
+   "topic": "1.4 An toàn thông tin",
+   "front": "Tường lửa (firewall)",
+   "back": "Kiểm soát lưu lượng mạng vào/ra theo quy tắc; có tường lửa của hệ điều hành và phần mềm tường lửa."
+  },
+  {
+   "topic": "1.4 An toàn thông tin",
+   "front": "Quy tắc sao lưu 3-2-1",
+   "back": "3 bản sao dữ liệu, trên 2 loại phương tiện khác nhau, 1 bản để ở vị trí khác (off-site) như ổ cứng ngoài, USB hoặc đám mây (Google Drive, OneDrive)."
+  },
+  {
+   "topic": "1.4 An toàn thông tin",
+   "front": "Mật khẩu mạnh cần đặc điểm gì?",
+   "back": "Dài (nên từ 12 ký tự), kết hợp chữ hoa, chữ thường, số, ký hiệu; không dùng thông tin cá nhân; không dùng lại giữa các tài khoản."
+  },
+  {
+   "topic": "1.4 An toàn thông tin",
+   "front": "Phishing là gì?",
+   "back": "Hình thức lừa đảo giả mạo email, tin nhắn hoặc trang web uy tín để dụ người dùng tiết lộ mật khẩu và thông tin cá nhân."
+  },
+  {
+   "topic": "1.5 Pháp luật trong sử dụng CNTT",
+   "front": "Copyright và License",
+   "back": "Copyright: bản quyền/quyền tác giả của người sáng tạo. License: giấy phép quy định quyền và điều kiện người dùng được sử dụng phần mềm."
+  },
+  {
+   "topic": "1.5 Pháp luật trong sử dụng CNTT",
+   "front": "Chương trình máy tính được bảo hộ theo pháp luật Việt Nam như thế nào?",
+   "back": "Theo Luật Sở hữu trí tuệ, được bảo hộ như tác phẩm văn học (quyền tác giả), dù ở dạng mã nguồn hay mã máy."
+  }
+ ]
+}

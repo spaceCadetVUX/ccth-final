@@ -1,0 +1,557 @@
+{
+  "module": "IU03",
+  "questions": [
+    {
+      "topic": "Tổng quan & gõ tiếng Việt",
+      "q": "Theo giáo trình, hai bảng mã tiếng Việt thông dụng nhất hiện nay là:",
+      "options": ["TCVN3 và VISCII", "Unicode và VNI Windows", "Unicode và TCVN3", "VNI Windows và VISCII"],
+      "answer": 1,
+      "explain": "Giáo trình mục 3.1 nêu Unicode (font Arial, Calibri, Tahoma...) và VNI Windows (font VNI-Times...) là hai bảng mã thông dụng nhất."
+    },
+    {
+      "topic": "Tổng quan & gõ tiếng Việt",
+      "q": "Trong kiểu gõ Telex, để gõ chữ 'đ' ta nhấn liên tiếp các phím:",
+      "options": ["d9", "dw", "df", "dd"],
+      "answer": 3,
+      "explain": "Telex: dd = đ (d9 là cách gõ của kiểu VNI), theo bảng quy tắc gõ ở mục 3.1."
+    },
+    {
+      "topic": "Tổng quan & gõ tiếng Việt",
+      "q": "Trong kiểu gõ VNI, phím số nào dùng để đánh dấu nặng?",
+      "options": ["5", "1", "3", "4"],
+      "answer": 0,
+      "explain": "VNI: 1 sắc, 2 huyền, 3 hỏi, 4 ngã, 5 nặng (mục 3.1; ví dụ 'Vie65t' = Việt)."
+    },
+    {
+      "topic": "Giao diện Word",
+      "q": "Để khởi động Microsoft Word từ hộp thoại Run, ta gõ lệnh:",
+      "options": ["excel", "powerpnt", "winword", "notepad"],
+      "answer": 2,
+      "explain": "Giáo trình mục 3.2, cách 2: Run rồi gõ winword (excel, powerpnt, notepad khởi động các chương trình khác)."
+    },
+    {
+      "topic": "Giao diện Word",
+      "q": "Thanh nằm ở cuối cửa sổ Word, hiển thị thông tin như số trang, số từ, các nút chế độ xem và thanh Zoom là:",
+      "options": ["Thanh tiêu đề (Title bar)", "Thanh trạng thái (Status bar)", "Thanh thước (Ruler)", "Thanh cuộn (Scroll bar)"],
+      "answer": 1,
+      "explain": "Status bar (thanh trạng thái) nằm dưới cùng cửa sổ Word (hình màn hình Word 2010, mục 3.2)."
+    },
+    {
+      "topic": "Thao tác tập tin",
+      "q": "Phím tắt để mở một tài liệu Word có sẵn (File > Open) là:",
+      "options": ["Ctrl+O", "Ctrl+N", "Ctrl+S", "Ctrl+P"],
+      "answer": 0,
+      "explain": "Giáo trình mục 3.2: mở văn bản bằng File > Open hoặc Ctrl+O (Ctrl+N tạo mới, Ctrl+S lưu, Ctrl+P in)."
+    },
+    {
+      "topic": "Thao tác tập tin",
+      "q": "Phím tắt cho lệnh Save As (lưu tài liệu với tên hoặc định dạng khác) là:",
+      "options": ["F4", "F7", "F5", "F12"],
+      "answer": 3,
+      "explain": "Giáo trình mục 3.2: File > Save As, phím tắt F12 (F7 là kiểm tra chính tả, F5 là Go To, F4 lặp lại thao tác cuối)."
+    },
+    {
+      "topic": "Thao tác tập tin",
+      "q": "Khi lưu ở định dạng mặc định, tệp tài liệu Word 2010 có phần mở rộng là:",
+      "options": [".doc", ".dotx", ".docx", ".rtf"],
+      "answer": 2,
+      "explain": "Giáo trình mục 3.2 lấy ví dụ Tailieu.docx; .doc là định dạng Word 97-2003, .dotx là Word Template."
+    },
+    {
+      "topic": "Thao tác tập tin",
+      "q": "Để Word 2010 mặc định lưu theo định dạng Word 2003, vào File > Word Options > Save, tại mục 'Save files in this format' chọn:",
+      "options": ["Word 97-2003 Document (*.doc)", "Word Template (*.dotx)", "Rich Text Format (*.rtf)", "Plain Text (*.txt)"],
+      "answer": 0,
+      "explain": "Đúng theo giáo trình mục 3.2 (lưu mặc định theo chương trình cũ)."
+    },
+    {
+      "topic": "Thao tác tập tin",
+      "q": "Tùy chọn tự động sao lưu theo chu kỳ (AutoRecover) để giảm mất dữ liệu khi treo máy hoặc mất điện nằm ở nhóm nào của Word Options?",
+      "options": ["Proofing", "Save", "Display", "Customize Ribbon"],
+      "answer": 1,
+      "explain": "Giáo trình mục 3.2: File > Word Options > Save (mục Save AutoRecover information every... minutes)."
+    },
+    {
+      "topic": "Quy tắc soạn thảo",
+      "q": "Theo quy tắc soạn thảo văn bản, phím Enter được dùng để:",
+      "options": ["Ngắt dòng trong cùng một đoạn", "Tạo khoảng trống giữa hai từ", "Canh giữa dòng văn bản", "Kết thúc một đoạn văn bản"],
+      "answer": 3,
+      "explain": "Giáo trình mục 3.2: không dùng Enter để ngắt dòng trong một đoạn; chỉ dùng Enter để kết thúc đoạn."
+    },
+    {
+      "topic": "Quy tắc soạn thảo",
+      "q": "Câu nào sau đây được gõ đúng quy tắc về dấu câu?",
+      "options": ["Hôm nay , tôi đi học .", "Hôm nay,tôi đi học.", "Hôm nay, tôi đi học.", "Hôm nay ,tôi đi học."],
+      "answer": 2,
+      "explain": "Giáo trình mục 3.2: dấu phẩy, chấm, chấm hỏi, chấm than, hai chấm gõ sát chữ bên trái và có một khoảng trắng bên phải."
+    },
+    {
+      "topic": "Di chuyển, chọn, xóa khối",
+      "q": "Để đưa con trỏ về đầu văn bản, ta nhấn:",
+      "options": ["Home", "Ctrl+Home", "Ctrl+End", "Page Up"],
+      "answer": 1,
+      "explain": "Giáo trình mục 3.2: Ctrl+Home về đầu văn bản, Ctrl+End về cuối văn bản; Home/End chỉ về đầu/cuối dòng."
+    },
+    {
+      "topic": "Di chuyển, chọn, xóa khối",
+      "q": "Phím Backspace có tác dụng:",
+      "options": ["Xóa ký tự liền bên trái vị trí con trỏ", "Xóa ký tự tại vị trí bên phải con trỏ", "Chuyển đổi giữa chế độ Insert và Overwrite", "Đưa con trỏ về đầu dòng"],
+      "answer": 0,
+      "explain": "Giáo trình mục 3.2: Backspace xóa ký tự liền trái con trỏ, còn Delete xóa ký tự bên phải con trỏ."
+    },
+    {
+      "topic": "Di chuyển, chọn, xóa khối",
+      "q": "Tổ hợp phím chọn toàn bộ nội dung tài liệu là:",
+      "options": ["Ctrl+Home", "Ctrl+E", "Ctrl+A", "Ctrl+D"],
+      "answer": 2,
+      "explain": "Kiến thức Word chuẩn (mục 3.2, chọn khối): Ctrl+A = Select All; Ctrl+E canh giữa, Ctrl+D mở hộp thoại Font."
+    },
+    {
+      "topic": "Di chuyển, chọn, xóa khối",
+      "q": "Để chọn một khối văn bản liên tục bằng chuột: đặt con trỏ ở điểm đầu, giữ phím nào rồi click chuột ở điểm cuối?",
+      "options": ["Ctrl", "Alt", "Tab", "Shift"],
+      "answer": 3,
+      "explain": "Giáo trình mục 3.2, chọn khối cách 2: giữ Shift rồi click ở điểm cuối của đoạn cần chọn."
+    },
+    {
+      "topic": "Chỉnh sửa văn bản",
+      "q": "Tổ hợp phím hoàn tác (Undo) thao tác vừa thực hiện là:",
+      "options": ["Ctrl+Y", "Ctrl+Z", "Ctrl+X", "Ctrl+V"],
+      "answer": 1,
+      "explain": "Kiến thức Word chuẩn: Ctrl+Z = Undo, Ctrl+Y = Redo (làm lại), Ctrl+X = cắt, Ctrl+V = dán."
+    },
+    {
+      "topic": "Định dạng ký tự",
+      "q": "Phím tắt in nghiêng (Italic) là:",
+      "options": ["Ctrl+I", "Ctrl+B", "Ctrl+U", "Ctrl+T"],
+      "answer": 0,
+      "explain": "Giáo trình mục 3.3.1: Ctrl+B in đậm, Ctrl+I in nghiêng, Ctrl+U gạch chân."
+    },
+    {
+      "topic": "Định dạng ký tự",
+      "q": "Tổ hợp phím Ctrl+[ có tác dụng:",
+      "options": ["Tăng cỡ chữ của vùng chọn lên 1 điểm", "Gạch chân vùng chọn", "Giảm cỡ chữ của vùng chọn đi 1 điểm", "Chuyển vùng chọn sang chữ thường"],
+      "answer": 2,
+      "explain": "Giáo trình mục 3.3.1: Ctrl+] và Ctrl+[ dùng để tăng và giảm cỡ chữ (mỗi lần 1 điểm)."
+    },
+    {
+      "topic": "Định dạng ký tự",
+      "q": "Sau khi bật Text Highlight Color, muốn ngừng chế độ đánh dấu, ngoài việc chọn Stop Highlighting ta có thể nhấn phím:",
+      "options": ["Enter", "Tab", "Delete", "Esc"],
+      "answer": 3,
+      "explain": "Giáo trình mục 3.3.1: ngừng chế độ đánh dấu bằng Stop Highlighting hoặc nhấn ESC."
+    },
+    {
+      "topic": "Định dạng ký tự",
+      "q": "Hiệu ứng Superscript trong hộp thoại Font dùng để:",
+      "options": ["Chuyển chữ thành dạng chỉ số trên (ví dụ m²)", "Chuyển chữ thành dạng chỉ số dưới (ví dụ H₂O)", "Kẻ một đường xuyên qua chữ", "Ẩn các ký tự đã chọn"],
+      "answer": 0,
+      "explain": "Giáo trình mục 3.3.1: Superscript = chỉ số trên, Subscript = chỉ số dưới, Strikethrough = kẻ đường xuyên qua chữ, Hidden = ẩn ký tự."
+    },
+    {
+      "topic": "Định dạng ký tự",
+      "q": "Phím tắt mở hộp thoại Font là:",
+      "options": ["Ctrl+F", "Ctrl+D", "Ctrl+H", "Ctrl+K"],
+      "answer": 1,
+      "explain": "Kiến thức Word chuẩn: Ctrl+D mở Font dialog (giáo trình mục 3.3.1 mở bằng mũi tên góc nhóm Font); Ctrl+F là Find, Ctrl+H là Replace, Ctrl+K là Hyperlink."
+    },
+    {
+      "topic": "Định dạng đoạn",
+      "q": "Phím tắt đặt khoảng cách dòng 1.5 lines cho đoạn văn bản là:",
+      "options": ["Ctrl+1", "Ctrl+2", "Ctrl+3", "Ctrl+5"],
+      "answer": 3,
+      "explain": "Kiến thức Word chuẩn (mục 3.3.2): Ctrl+1 = Single, Ctrl+5 = 1.5 lines, Ctrl+2 = Double."
+    },
+    {
+      "topic": "Định dạng đoạn",
+      "q": "Phím tắt canh đều hai bên lề (Justify) cho đoạn văn bản là:",
+      "options": ["Ctrl+E", "Ctrl+R", "Ctrl+J", "Ctrl+L"],
+      "answer": 2,
+      "explain": "Kiến thức Word chuẩn (mục 3.3.2): Ctrl+J = Justify, Ctrl+L = canh trái, Ctrl+E = canh giữa, Ctrl+R = canh phải."
+    },
+    {
+      "topic": "Định dạng đoạn",
+      "q": "Trong Ribbon Page Layout, nhóm Paragraph, hai mục Before và After dùng để điều chỉnh:",
+      "options": ["Khoảng cách trước và sau đoạn văn bản", "Thụt lề trái và thụt lề phải của đoạn", "Khoảng cách giữa các dòng trong đoạn", "Khoảng cách từ mép giấy đến nội dung"],
+      "answer": 0,
+      "explain": "Giáo trình mục 3.3.2: Before/After thay đổi khoảng cách trước hoặc sau đoạn; Left/Right mới là thụt lề trái/phải."
+    },
+    {
+      "topic": "Định dạng đoạn",
+      "q": "Trong Drop Cap, chế độ 'In margin' đặt chữ cái đầu lớn ở vị trí nào?",
+      "options": ["Bên trong khối văn bản, chiếm nhiều dòng", "Ở giữa trang giấy", "Nằm ngoài (bên trái) khối văn bản", "Ở cuối đoạn văn bản"],
+      "answer": 2,
+      "explain": "Giáo trình mục 3.3.2: Dropped = chữ nằm trong văn bản; In margin = chữ nằm ngoài (bên trái) văn bản."
+    },
+    {
+      "topic": "Định dạng đoạn",
+      "q": "Để đóng khung và tô màu nền cho đoạn văn bản, trong nhóm Paragraph (tab Home) nhấn vào danh sách nút Border rồi chọn:",
+      "options": ["Horizontal Line", "Borders and Shading", "Draw Table", "View Gridlines"],
+      "answer": 1,
+      "explain": "Giáo trình mục 3.3.2 (Border and Shading): chọn Borders and Shading trong danh sách của nút Border."
+    },
+    {
+      "topic": "Định dạng đoạn",
+      "q": "Chức năng Columns của Word cho phép:",
+      "options": ["Chèn bảng có nhiều cột", "Chia trang giấy thành nhiều trang", "Đánh số thứ tự cho các dòng trong đoạn", "Chia văn bản thành nhiều cột dạng cột báo chí"],
+      "answer": 3,
+      "explain": "Giáo trình mục 3.3.2: Column định dạng văn bản thành nhiều cột (dạng cột báo chí), khác với bảng (Table)."
+    },
+    {
+      "topic": "Định dạng đoạn",
+      "q": "Để thuận tiện khi cài đặt điểm dừng Tab (Tab stops), nên bật hiển thị:",
+      "options": ["Thước ngang (Ruler)", "Thanh trạng thái (Status bar)", "Thanh cuộn dọc (Scroll bar)", "Thanh tiêu đề (Title bar)"],
+      "answer": 0,
+      "explain": "Giáo trình mục 3.3.2: nên hiện thước ngang bằng nút View Ruler ở đầu trên thanh cuộn dọc rồi đặt tab trên thước."
+    },
+    {
+      "topic": "Bảng biểu",
+      "q": "Trong bảng (Table), giao điểm của một dòng và một cột được gọi là:",
+      "options": ["Trường (Field)", "Ô (Cell)", "Bản ghi (Record)", "Khung (Frame)"],
+      "answer": 1,
+      "explain": "Giáo trình mục 3.4.1: bảng gồm các cột (column) và dòng (row), giao giữa dòng và cột là ô (cell)."
+    },
+    {
+      "topic": "Bảng biểu",
+      "q": "Khi nhấp chọn vào một bảng, các tab ngữ cảnh của Table Tools xuất hiện gồm:",
+      "options": ["Home và Insert", "Format và Review", "Design và Layout", "References và Mailings"],
+      "answer": 2,
+      "explain": "Table Tools có hai tab ngữ cảnh Design và Layout (giáo trình mục 3.4.1 nhắc tab Design để chỉnh cấu trúc bảng)."
+    },
+    {
+      "topic": "Bảng biểu",
+      "q": "Trong Table Style Options, tùy chọn Banded Rows có tác dụng:",
+      "options": ["Nhấn mạnh hàng đầu tiên (tiêu đề)", "Nhấn mạnh hàng cuối cùng", "Nhấn mạnh cột đầu tiên", "Tô màu xen kẽ để phân biệt các hàng"],
+      "answer": 3,
+      "explain": "Giáo trình mục 3.4.1: Header Row nhấn mạnh hàng tiêu đề, Total Row nhấn mạnh hàng cuối, Banded Rows tô màu cách hàng."
+    },
+    {
+      "topic": "Bảng biểu",
+      "q": "Trong nhóm Rows & Columns của bảng, lệnh Insert Left dùng để:",
+      "options": ["Thêm hàng ở phía trên vị trí con trỏ", "Thêm cột ở bên trái vị trí con trỏ", "Thêm cột ở bên phải vị trí con trỏ", "Thêm hàng ở phía dưới vị trí con trỏ"],
+      "answer": 1,
+      "explain": "Giáo trình mục 3.4.1: Insert Above/Below thêm hàng trên/dưới; Insert Left/Right thêm cột bên trái/phải."
+    },
+    {
+      "topic": "Đối tượng đồ họa",
+      "q": "Nút Shapes (chèn hình vẽ cơ bản) nằm trong nhóm nào của tab Insert (Word 2010)?",
+      "options": ["Illustrations", "Text", "Symbols", "Header & Footer"],
+      "answer": 0,
+      "explain": "Giáo trình mục 3.4.3: Ribbon Insert, nhóm Illustrations, nhấn nút Shapes."
+    },
+    {
+      "topic": "Đối tượng đồ họa",
+      "q": "Lệnh Send to Back trong nhóm Arrange của tab Format có tác dụng:",
+      "options": ["Đặt đối tượng nằm trên các đối tượng khác", "Nhóm các đối tượng đã chọn", "Đặt đối tượng nằm dưới các đối tượng khác", "Chọn kiểu văn bản bao quanh đối tượng"],
+      "answer": 2,
+      "explain": "Giáo trình mục 3.4.2: Bring to Front đặt đối tượng lên trên, Send to Back đặt đối tượng xuống dưới; Text Wrapping mới là kiểu văn bản bao quanh."
+    },
+    {
+      "topic": "Đối tượng đồ họa",
+      "q": "Nút WordArt (chữ nghệ thuật) nằm ở nhóm nào trên tab Insert?",
+      "options": ["Illustrations", "Links", "Symbols", "Text"],
+      "answer": 3,
+      "explain": "Giáo trình mục 3.4.6: WordArt nằm trong nhóm Text của Ribbon Insert (WordArt được xử lý như một hình ảnh chèn vào văn bản)."
+    },
+    {
+      "topic": "Header/Footer & số trang",
+      "q": "Để trang đầu tiên của tài liệu không hiển thị Header/Footer (hoặc số trang) giống các trang còn lại, trong Header & Footer Tools > Design ta chọn:",
+      "options": ["Different First Page", "Different Odd & Even Pages", "Link to Previous", "Show Document Text"],
+      "answer": 0,
+      "explain": "Kiến thức Word chuẩn (mục 3.4.7): Different First Page cho phép trang đầu có Header/Footer riêng hoặc để trống."
+    },
+    {
+      "topic": "Header/Footer & số trang",
+      "q": "Nút Page Number (chèn số trang) nằm trong nhóm nào của tab Insert?",
+      "options": ["Pages", "Header & Footer", "Illustrations", "Text"],
+      "answer": 1,
+      "explain": "Kiến thức Word chuẩn (mục 3.4.7): Insert > nhóm Header & Footer gồm Header, Footer và Page Number."
+    },
+    {
+      "topic": "Header/Footer & số trang",
+      "q": "Để mỗi section trong tài liệu có Header/Footer khác nhau, sau khi chèn Section Break ta cần tắt (bỏ chọn) nút nào trong Header & Footer Tools > Design?",
+      "options": ["Different First Page", "Show Document Text", "Different Odd & Even Pages", "Link to Previous"],
+      "answer": 3,
+      "explain": "Khi Link to Previous còn bật, Header/Footer của section sau kế thừa nội dung section trước; tắt nó thì hai section độc lập (kiến thức Word chuẩn)."
+    },
+    {
+      "topic": "Page Setup & in ấn",
+      "q": "Trong Word 2010, hộp thoại Page Setup được mở bằng mũi tên ở góc dưới bên phải nhóm Page Setup thuộc tab:",
+      "options": ["Insert", "Home", "Page Layout", "References"],
+      "answer": 2,
+      "explain": "Giáo trình mục 3.5.1: Ribbon Page Layout, nhóm Page Setup, nhấn mũi tên góc dưới phải để mở hộp thoại Page Setup."
+    },
+    {
+      "topic": "Page Setup & in ấn",
+      "q": "Khổ giấy A4 có kích thước là:",
+      "options": ["210 mm × 297 mm", "216 mm × 279 mm", "148 mm × 210 mm", "297 mm × 420 mm"],
+      "answer": 0,
+      "explain": "A4 = 210 × 297 mm; 216 × 279 mm (8,5 × 11 in) là Letter, 148 × 210 mm là A5, 297 × 420 mm là A3."
+    },
+    {
+      "topic": "Page Setup & in ấn",
+      "q": "Khi dùng Mirror Margins để làm sách (tạo tính đối xứng giữa các trang), các lề Left và Right sẽ trở thành:",
+      "options": ["Top và Bottom", "Inside và Outside", "Gutter và Header", "Portrait và Landscape"],
+      "answer": 1,
+      "explain": "Giáo trình mục 3.5.1: với Mirror Margins, Left/Right đổi thành Inside/Outside; Gutter là khoảng cách dùng để đóng gáy."
+    },
+    {
+      "topic": "Page Setup & in ấn",
+      "q": "Để mở màn hình in của Word, dùng lệnh File > Print hoặc phím tắt:",
+      "options": ["Ctrl+O", "Ctrl+S", "Ctrl+P", "Ctrl+N"],
+      "answer": 2,
+      "explain": "Giáo trình mục 3.5.2: File > Print (phím tắt Ctrl+P), tại đây chọn số bản in ở Copies và máy in ở Printer."
+    },
+    {
+      "topic": "Page Setup & in ấn",
+      "q": "Để giữ nguyên định dạng khi mở hoặc in tài liệu trên máy khác, có thể lưu tài liệu dưới dạng:",
+      "options": ["TXT hoặc CSV", "DOC hoặc DOT", "XLSX hoặc PPTX", "PDF hoặc XPS"],
+      "answer": 3,
+      "explain": "Giáo trình mục 3.5.2: lưu tập tin dưới dạng .PDF hoặc .XPS để giữ nguyên định dạng khi đọc/in ở máy khác."
+    },
+    {
+      "topic": "Mail Merge",
+      "q": "Mail Merge (trộn thư) kết hợp hai thành phần chính nào?",
+      "options": ["Tài liệu chính (main document) và nguồn dữ liệu (data source)", "Header và Footer", "Bảng và biểu đồ", "Template và Macro"],
+      "answer": 0,
+      "explain": "Kiến thức Word chuẩn (tab Mailings): tài liệu chính chứa nội dung cố định, nguồn dữ liệu (Excel, Access, danh sách nhập tay...) cung cấp các trường thay đổi."
+    },
+    {
+      "topic": "Mail Merge",
+      "q": "Trên tab Mailings, nút Insert Merge Field dùng để:",
+      "options": ["Chọn tập tin Excel hoặc Access làm nguồn dữ liệu", "Xem trước kết quả trộn thư", "Chèn trường dữ liệu (tên cột của nguồn dữ liệu) vào tài liệu chính", "Xuất các thư đã trộn ra máy in"],
+      "answer": 2,
+      "explain": "Kiến thức Word chuẩn: Select Recipients chọn nguồn, Insert Merge Field chèn trường, Preview Results xem trước, Finish & Merge hoàn tất."
+    },
+    {
+      "topic": "Văn bản hành chính",
+      "q": "Theo giáo trình mục 3.6, văn bản hành chính là:",
+      "options": ["Các bản báo cáo, thông báo, bài viết thông thường", "Các văn bản có giá trị pháp lý theo quy ước, quy định", "Các văn bản được soạn bằng Microsoft Word", "Các tài liệu chỉ lưu hành nội bộ trong doanh nghiệp"],
+      "answer": 1,
+      "explain": "Giáo trình mục 3.6: báo cáo, thông báo, bài viết thuộc nhóm thông điệp; văn bản hành chính là văn bản có giá trị pháp lý theo quy ước, quy định."
+    },
+    {
+      "topic": "Văn bản hành chính",
+      "q": "Theo Nghị định 30/2020/NĐ-CP, văn bản hành chính được trình bày với phông chữ và bộ mã nào?",
+      "options": ["Arial, bộ mã VNI Windows", "Tahoma, bộ mã TCVN3", "VNI-Times, bộ mã VNI Windows", "Times New Roman, bộ mã Unicode (TCVN 6909:2001)"],
+      "answer": 3,
+      "explain": "Phụ lục I Nghị định 30/2020/NĐ-CP quy định phông Times New Roman, bộ mã Unicode theo TCVN 6909:2001, cỡ chữ 13-14."
+    },
+    {
+      "topic": "Văn bản hành chính",
+      "q": "Khi định lề trang văn bản hành chính khổ A4 theo Nghị định 30/2020/NĐ-CP, lề nào rộng nhất (30-35 mm) để chừa chỗ đóng gáy?",
+      "options": ["Lề trái", "Lề phải", "Lề trên", "Lề dưới"],
+      "answer": 0,
+      "explain": "Nghị định 30/2020/NĐ-CP: lề trên và dưới 20-25 mm, lề trái 30-35 mm, lề phải 15-20 mm."
+    },
+    {
+      "topic": "Văn bản hành chính",
+      "q": "Theo Nghị định 30/2020/NĐ-CP, số trang của văn bản hành chính được đặt ở đâu?",
+      "options": ["Cuối trang, canh phải, đánh từ trang 2", "Đầu trang, canh trái, hiển thị cả trang 1", "Giữa phần lề trên (Header), không hiển thị số ở trang thứ nhất", "Góc dưới bên phải, chỉ đánh cho trang cuối"],
+      "answer": 2,
+      "explain": "Nghị định 30/2020/NĐ-CP: số trang canh giữa theo chiều ngang trong phần lề trên (header), không hiển thị số trang thứ nhất - thao tác thực hiện bằng Different First Page."
+    }
+  ],
+  "cards": [
+    {
+      "topic": "Thao tác tập tin",
+      "front": "Tạo mới, mở, lưu, lưu với tên khác và đóng tài liệu",
+      "back": "Ctrl+N: tạo mới. Ctrl+O (File > Open): mở. Ctrl+S (File > Save): lưu, nếu chưa lưu lần nào Word hỏi tên và nơi lưu. F12 (File > Save As): lưu tên/định dạng khác. Ctrl+W: đóng tài liệu."
+    },
+    {
+      "topic": "Thao tác tập tin",
+      "front": "Đặt mặc định lưu .doc (Word 2003) và bật tự động sao lưu",
+      "back": "File > Word Options > Save: mục 'Save files in this format' chọn Word 97-2003 Document (*.doc); tích 'Save AutoRecover information every ... minutes' để tự sao lưu theo chu kỳ."
+    },
+    {
+      "topic": "Gõ tiếng Việt",
+      "front": "Gõ tiếng Việt kiểu Telex (Unikey)",
+      "back": "aa=â, ee=ê, oo=ô, aw=ă, ow=ơ, uw=ư, dd=đ. Dấu: s sắc, f huyền, r hỏi, x ngã, j nặng. VD: Vieejt = Việt. Bảng mã Unicode dùng font Arial, Calibri, Tahoma; VNI Windows dùng font VNI-Times."
+    },
+    {
+      "topic": "Gõ tiếng Việt",
+      "front": "Gõ tiếng Việt kiểu VNI (Unikey)",
+      "back": "a6=â, e6=ê, o6=ô, a8=ă, o7=ơ, u7=ư, d9=đ. Dấu: 1 sắc, 2 huyền, 3 hỏi, 4 ngã, 5 nặng. VD: Vie65t = Việt."
+    },
+    {
+      "topic": "Di chuyển & chọn",
+      "front": "Di chuyển nhanh con trỏ trong văn bản",
+      "back": "Home/End: đầu/cuối dòng. Ctrl+Home/Ctrl+End: đầu/cuối văn bản. Page Up/Page Down: lên/xuống một trang màn hình. Ctrl+mũi tên trái/phải: qua từng từ."
+    },
+    {
+      "topic": "Di chuyển & chọn",
+      "front": "Chọn nhanh khối văn bản",
+      "back": "Ctrl+A: chọn tất cả. Đặt con trỏ ở điểm đầu, giữ Shift và click ở điểm cuối. Giữ Shift + phím mũi tên/Home/End để mở rộng vùng chọn. Nhấp đúp: chọn từ; nhấp ba: chọn đoạn. Xóa khối: chọn rồi nhấn Delete."
+    },
+    {
+      "topic": "Chỉnh sửa văn bản",
+      "front": "Hoàn tác, làm lại, cắt, sao chép, dán",
+      "back": "Ctrl+Z: Undo. Ctrl+Y: Redo. Ctrl+X: cắt. Ctrl+C: sao chép. Ctrl+V: dán (nhóm Clipboard, tab Home). Ctrl+Alt+V: Paste Special."
+    },
+    {
+      "topic": "Định dạng ký tự",
+      "front": "In đậm, in nghiêng, gạch chân văn bản",
+      "back": "Chọn văn bản rồi nhấn nút B / I / U trong nhóm Font (tab Home) hoặc Ctrl+B / Ctrl+I / Ctrl+U; nhấn lần nữa để bỏ. Mũi tên cạnh nút U để chọn các kiểu gạch chân khác."
+    },
+    {
+      "topic": "Định dạng ký tự",
+      "front": "Đổi kích cỡ chữ",
+      "back": "Chọn văn bản, chọn cỡ ở ô Font Size (Home > Font). Ctrl+] tăng và Ctrl+[ giảm 1 điểm mỗi lần; Ctrl+Shift+> và Ctrl+Shift+< tăng/giảm theo các bậc cỡ chữ định sẵn."
+    },
+    {
+      "topic": "Định dạng ký tự",
+      "front": "Tạo chỉ số trên (m²) và chỉ số dưới (H₂O)",
+      "back": "Chọn ký tự rồi nhấn nút Superscript / Subscript trong nhóm Font, hoặc Ctrl+Shift+= (chỉ số trên) và Ctrl+= (chỉ số dưới)."
+    },
+    {
+      "topic": "Định dạng ký tự",
+      "front": "Đổi chữ hoa/thường cho vùng chọn",
+      "back": "Home > Font > Change Case (nút Aa): Sentence case, lowercase, UPPERCASE, Capitalize Each Word, tOGGLE cASE; hoặc nhấn Shift+F3."
+    },
+    {
+      "topic": "Định dạng ký tự",
+      "front": "Mở hộp thoại Font để dùng hiệu ứng đặc biệt và gạch dưới chỉ từ",
+      "back": "Ctrl+D hoặc mũi tên góc dưới phải nhóm Font (Home). Effects: Strikethrough, Double strikethrough, Superscript, Subscript, Small caps, All caps, Hidden. Gạch dưới không tính khoảng trắng: Underline style = Words only."
+    },
+    {
+      "topic": "Định dạng ký tự",
+      "front": "Giãn hoặc thu hẹp khoảng cách giữa các ký tự",
+      "back": "Chọn văn bản > Ctrl+D > thẻ Advanced > Character Spacing > Spacing: Expanded (mở rộng) hoặc Condensed (thu hẹp), nhập số đo ở mục By."
+    },
+    {
+      "topic": "Định dạng ký tự",
+      "front": "Tô sáng (Highlight) đoạn text, ngừng và gỡ bỏ tô sáng",
+      "back": "Home > Font > mũi tên cạnh Text Highlight Color, chọn màu rồi tô chọn văn bản. Ngừng chế độ tô: Stop Highlighting hoặc Esc. Gỡ tô: chọn văn bản rồi chọn No Color."
+    },
+    {
+      "topic": "Định dạng ký tự",
+      "front": "Sao chép định dạng và xóa định dạng ký tự",
+      "back": "Format Painter (Home > Clipboard): chọn vùng mẫu, bấm nút rồi quét lên vùng đích; nhấp đúp nút để dùng nhiều lần, Esc để thoát (Ctrl+Shift+C / Ctrl+Shift+V). Xóa định dạng ký tự: Ctrl+Space hoặc Home > Font > Clear Formatting."
+    },
+    {
+      "topic": "Văn bản hành chính",
+      "front": "Trình bày trang văn bản hành chính theo Nghị định 30/2020/NĐ-CP",
+      "back": "Khổ A4 (210 × 297 mm), font Times New Roman, bộ mã Unicode (TCVN 6909:2001), cỡ chữ 13-14. Lề trên/dưới 20-25 mm, trái 30-35 mm, phải 15-20 mm (Page Layout > Page Setup > Margins). Số trang canh giữa trong header, không hiển thị ở trang 1."
+    },
+    {
+      "topic": "Định dạng đoạn",
+      "front": "Canh lề đoạn: trái, giữa, phải, đều hai bên",
+      "back": "Nhóm Paragraph (Home): Ctrl+L canh trái, Ctrl+E canh giữa, Ctrl+R canh phải, Ctrl+J canh đều hai bên (Justify)."
+    },
+    {
+      "topic": "Định dạng đoạn",
+      "front": "Đặt khoảng cách giữa các dòng trong đoạn (Line spacing)",
+      "back": "Ctrl+1 (Single), Ctrl+5 (1.5 lines), Ctrl+2 (Double); hoặc hộp thoại Paragraph > thẻ Indents and Spacing > Line spacing (Single, 1.5 lines, Double, At least, Exactly, Multiple)."
+    },
+    {
+      "topic": "Định dạng đoạn",
+      "front": "Thụt lề trái/phải toàn đoạn, thụt dòng đầu và dòng treo",
+      "back": "Page Layout > Paragraph > Left/Right, hoặc hộp thoại Paragraph > Indentation: Left, Right, Special = First line (thụt dòng đầu) hoặc Hanging (dòng treo). Có thể kéo các marker trên Ruler; Ctrl+M / Ctrl+Shift+M tăng/giảm thụt lề."
+    },
+    {
+      "topic": "Định dạng đoạn",
+      "front": "Đổi khoảng cách trước và sau đoạn",
+      "back": "Chọn đoạn > Page Layout > Paragraph > Spacing: nhập giá trị ở Before (trước) và After (sau); hoặc hộp thoại Paragraph > Indents and Spacing > Spacing."
+    },
+    {
+      "topic": "Định dạng đoạn",
+      "front": "Tạo chữ cái lớn đầu đoạn (Drop Cap)",
+      "back": "Đặt con trỏ trong đoạn > Insert > Text > Drop Cap: Dropped (trong văn bản) hoặc In margin (ngoài, bên trái). Drop Cap Options: Font, Lines to drop (số dòng), Distance from text."
+    },
+    {
+      "topic": "Định dạng đoạn",
+      "front": "Tạo danh sách tự động (ký hiệu, số thứ tự, đa cấp)",
+      "back": "Home > Paragraph: Bullets (dấu chấm tròn, hoa thị...), Numbering (số/chữ thứ tự), Multilevel List (kết hợp số và chữ theo cấp); Increase/Decrease Indent để đổi cấp."
+    },
+    {
+      "topic": "Định dạng đoạn",
+      "front": "Đóng khung và tô màu nền đoạn văn bản",
+      "back": "Chọn đoạn > Home > Paragraph > mũi tên nút Border > Borders and Shading: thẻ Borders, Page Border, Shading; mục Apply to chọn Text hoặc Paragraph."
+    },
+    {
+      "topic": "Định dạng đoạn",
+      "front": "Chia văn bản thành nhiều cột (dạng cột báo chí)",
+      "back": "Chọn đoạn > Page Layout > Page Setup > Columns > More Columns: chọn số cột, Line between, độ rộng/khoảng cách cột, Apply to. Ctrl+Shift+Enter: ngắt sang cột kế tiếp."
+    },
+    {
+      "topic": "Định dạng đoạn",
+      "front": "Cài đặt điểm dừng Tab (Tab stops)",
+      "back": "Bật Ruler (View Ruler ở đầu thanh cuộn dọc), bấm ô chọn loại tab ở góc trái thước (Left, Center, Right, Decimal, Bar) rồi click lên thước; hoặc Paragraph > Tabs (có Leader). Nhấn Tab để nhảy tới tab stop."
+    },
+    {
+      "topic": "Bảng biểu",
+      "front": "Chèn bảng và di chuyển giữa các ô",
+      "back": "Insert > Tables > Table: rê chuột chọn số cột × dòng, hoặc Insert Table để nhập số liệu. Tab: sang ô kế tiếp; Shift+Tab: về ô trước; Tab ở ô cuối cùng: thêm dòng mới."
+    },
+    {
+      "topic": "Bảng biểu",
+      "front": "Thêm hoặc xóa hàng, cột trong bảng",
+      "back": "Đặt con trỏ vào ô > Table Tools > Layout > Rows & Columns: Insert Above/Below (thêm hàng), Insert Left/Right (thêm cột); Delete > Delete Cells/Columns/Rows/Table."
+    },
+    {
+      "topic": "Bảng biểu",
+      "front": "Trộn ô, tách ô, tách bảng",
+      "back": "Chọn ô > Table Tools > Layout > nhóm Merge: Merge Cells (trộn thành một ô), Split Cells (tách thành nhiều ô), Split Table (tách thành hai bảng, hoặc Ctrl+Shift+Enter)."
+    },
+    {
+      "topic": "Bảng biểu",
+      "front": "Lặp lại dòng tiêu đề bảng ở các trang sau và tính tổng trong bảng",
+      "back": "Chọn dòng tiêu đề > Table Tools > Layout > Data > Repeat Header Rows. Tính tổng: Layout > Data > Formula, dùng =SUM(ABOVE) hoặc =SUM(LEFT)."
+    },
+    {
+      "topic": "Đối tượng đồ họa",
+      "front": "Đặt văn bản bao quanh hình, sắp xếp lớp và nhóm đối tượng",
+      "back": "Chọn đối tượng > tab Format > Arrange: Text Wrapping (Square, Tight, Behind Text, In Front of Text...), Bring to Front / Send to Back, Group (chọn nhiều đối tượng bằng Shift/Ctrl+click), Align, Rotate."
+    },
+    {
+      "topic": "Đối tượng đồ họa",
+      "front": "Chèn hình ảnh, Shapes, SmartArt, Chart và WordArt",
+      "back": "Insert > nhóm Illustrations: Picture, Clip Art, Shapes, SmartArt, Chart; WordArt ở Insert > nhóm Text. Sau khi chèn, định dạng ở tab Format (SmartArt có thêm tab Design)."
+    },
+    {
+      "topic": "Header/Footer & số trang",
+      "front": "Chèn Header và Footer",
+      "back": "Insert > nhóm Header & Footer > Header hoặc Footer, chọn mẫu rồi nhập nội dung. Xong nhấn Close Header and Footer (tab Design) hoặc nhấp đúp vào vùng thân văn bản."
+    },
+    {
+      "topic": "Header/Footer & số trang",
+      "front": "Đánh số trang",
+      "back": "Insert > Header & Footer > Page Number > Top of Page / Bottom of Page / Current Position; Format Page Numbers để chọn kiểu số và Start at (số bắt đầu)."
+    },
+    {
+      "topic": "Header/Footer & số trang",
+      "front": "Không hiển thị số trang ở trang đầu; mỗi section có Header/Footer riêng",
+      "back": "Header & Footer Tools > Design > Options: tích Different First Page. Với section riêng: chèn Section Break rồi bỏ chọn Link to Previous ở section sau."
+    },
+    {
+      "topic": "Page Setup & in ấn",
+      "front": "Ngắt trang và ngắt section",
+      "back": "Ctrl+Enter: ngắt trang (page break). Page Layout > Page Setup > Breaks: Page, Column, Text Wrapping; Section Breaks gồm Next Page, Continuous, Even Page, Odd Page."
+    },
+    {
+      "topic": "Page Setup & in ấn",
+      "front": "Thiết lập trang in: khổ giấy, lề, hướng giấy",
+      "back": "Page Layout > Page Setup: Margins, Orientation (Portrait/Landscape), Size; hoặc mũi tên góc nhóm mở hộp thoại Page Setup: thẻ Margins (Top, Bottom, Left, Right, Gutter, Mirror margins), Paper (Paper size, Custom nhập Width/Height), Layout."
+    },
+    {
+      "topic": "Page Setup & in ấn",
+      "front": "In tài liệu và chọn phạm vi trang in",
+      "back": "File > Print (Ctrl+P): Copies (số bản), Printer (chọn máy in), Settings: Print All Pages / Print Selection / Print Current Page / Custom Print (ô Pages, ví dụ 1,3,5-8); xem trước ở khung bên phải."
+    },
+    {
+      "topic": "Page Setup & in ấn",
+      "front": "Lưu tài liệu thành PDF/XPS và đặt mật khẩu",
+      "back": "File > Save As > Save as type: PDF (*.pdf) hoặc XPS Document để giữ nguyên định dạng; nút Options để tùy chọn. Đặt mật khẩu mở tài liệu: File > Info > Protect Document > Encrypt with Password."
+    },
+    {
+      "topic": "Tìm kiếm & thay thế",
+      "front": "Tìm kiếm, thay thế và nhảy tới vị trí trong tài liệu",
+      "back": "Ctrl+F: Find (Navigation Pane). Ctrl+H: Replace (Find what / Replace with, Replace hoặc Replace All). Ctrl+G hoặc F5: Go To (trang, dòng...). Các lệnh cũng nằm ở Home > Editing."
+    },
+    {
+      "topic": "Mail Merge",
+      "front": "Trộn thư (Mail Merge) cơ bản",
+      "back": "Mailings > Start Mail Merge > Letters; Select Recipients (Use Existing List: Excel/Access, hoặc Type a New List); Insert Merge Field (chèn trường dạng «Ten»); Preview Results; Finish & Merge > Edit Individual Documents hoặc Print Documents."
+    }
+  ]
+}

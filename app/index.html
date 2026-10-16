@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ôn thi Tin học IUH</title>
+<style>
+:root{
+  --bg:#f6f7f9;--card:#fff;--ink:#1c2430;--mut:#667085;--line:#e3e7ee;
+  --pri:#2457d6;--pri-ink:#fff;--ok:#12805c;--okbg:#e4f5ee;--bad:#c02a2a;--badbg:#fdeaea;--warn:#a15c00;--warnbg:#fff3dc;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0f1319;--card:#171d26;--ink:#e6eaf0;--mut:#93a0b4;--line:#283142;
+  --pri:#6d95ff;--pri-ink:#0b1020;--ok:#4cc79a;--okbg:#12291f;--bad:#ff8a8a;--badbg:#341a1a;--warn:#f0b35a;--warnbg:#33260f;color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f1319;--card:#171d26;--ink:#e6eaf0;--mut:#93a0b4;--line:#283142;
+  --pri:#6d95ff;--pri-ink:#0b1020;--ok:#4cc79a;--okbg:#12291f;--bad:#ff8a8a;--badbg:#341a1a;--warn:#f0b35a;--warnbg:#33260f;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 system-ui,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:860px;margin:0 auto;padding:16px}
+header.top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;padding-block:6px 10px}
+header.top h1{font-size:18px;margin:0}
+.count{font-size:13px;color:var(--mut)}
+nav{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px;position:sticky;top:0;background:var(--bg);padding-block:8px;z-index:5}
+nav button{border:1px solid var(--line);background:var(--card);color:var(--ink);padding:8px 12px;border-radius:8px;cursor:pointer;font:inherit}
+nav button.on{background:var(--pri);color:var(--pri-ink);border-color:var(--pri)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:12px}
+.card h2{font-size:16px;margin:0 0 8px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px}
+.stat b{display:block;font-size:22px}
+.stat span{color:var(--mut);font-size:13px}
+button.btn{background:var(--pri);color:var(--pri-ink);border:0;border-radius:8px;padding:9px 16px;font:inherit;cursor:pointer}
+button.btn.sec{background:transparent;color:var(--ink);border:1px solid var(--line)}
+button.btn.bad{background:var(--bad);color:#fff}
+button.btn:disabled{opacity:.5;cursor:not-allowed}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.opt{display:block;width:100%;text-align:left;border:1px solid var(--line);background:var(--card);color:var(--ink);padding:10px 12px;border-radius:8px;margin:6px 0;cursor:pointer;font:inherit}
+.opt:hover:not(:disabled){border-color:var(--pri)}
+.opt.sel{border-color:var(--pri);box-shadow:0 0 0 1px var(--pri)}
+.opt.ok{background:var(--okbg);border-color:var(--ok)}
+.opt.no{background:var(--badbg);border-color:var(--bad)}
+.note{padding:10px 12px;border-radius:8px;background:var(--warnbg);color:var(--warn);font-size:13px;margin:8px 0}
+.exp{padding:10px 12px;border-radius:8px;background:var(--okbg);margin-top:8px;font-size:14px}
+.bar{height:8px;background:var(--line);border-radius:6px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--pri)}
+.tag{display:inline-block;font-size:12px;padding:1px 8px;border-radius:99px;background:var(--line);color:var(--mut);margin-right:6px}
+.tag.hot{background:var(--warnbg);color:var(--warn)}
+code{font-size:13px;background:var(--line);padding:1px 5px;border-radius:4px}
+label.chk{display:inline-flex;gap:6px;align-items:center;margin:4px 12px 4px 0;cursor:pointer}
+input[type=text],input[type=date],input[type=number],select,textarea{font:inherit;background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:7px 9px;max-width:100%}
+textarea{width:100%;min-height:60px}
+.day{display:flex;gap:10px;align-items:flex-start;padding:10px 0;border-top:1px solid var(--line)}
+.day:first-child{border-top:0}
+.day.today{background:var(--warnbg);margin-inline:-8px;padding-inline:8px;border-radius:8px}
+.day.done .dt{text-decoration:line-through;color:var(--mut)}
+.day small{color:var(--mut);display:block}
+.big{font-size:44px;font-weight:700;text-align:center;font-variant-numeric:tabular-nums;margin:8px 0}
+.fc{min-height:150px;display:flex;align-items:center;justify-content:center;text-align:center;font-size:18px;padding:20px;border:1px dashed var(--line);border-radius:12px;margin:10px 0;white-space:pre-wrap}
+.nums{display:flex;flex-wrap:wrap;gap:5px;margin:8px 0}
+.nums button{width:34px;height:34px;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:6px;cursor:pointer}
+.nums button.a{background:var(--pri);color:var(--pri-ink);border-color:var(--pri)}
+.nums button.cur{outline:2px solid var(--warn)}
+.ph{display:flex;justify-content:space-between;padding:6px 10px;border-radius:8px}
+.ph.on{background:var(--pri);color:var(--pri-ink)}
+.ph.past{color:var(--mut);text-decoration:line-through}
+.mut{color:var(--mut)}
+@media (max-width:520px){.big{font-size:36px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <h1>Ôn thi Tin học cơ bản IUH</h1>
+    <div class="count" id="count"></div>
+  </header>
+  <nav id="tabs"></nav>
+  <main id="view"></main>
+</div>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

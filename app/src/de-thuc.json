@@ -1,0 +1,4 @@
+{
+ "ghi_chu": "Danh sách đề lý thuyết IUH THẬT dùng để tính tần suất xuất hiện. Mỗi đề: id (duy nhất), nam, mo_ta (tự do), nguon (ai cung cấp / đề nhớ lại / ảnh chụp). Chỉ thêm đề đã xác nhận là đề IUH thật, KHÔNG thêm đề luyện tập của bên thứ ba. Để ds rỗng = chưa có dữ liệu, app sẽ không hiện xác suất. Gắn câu hỏi vào đề bằng field \"de\": [\"id-đề\"] trong IU0x.json.",
+ "ds": []
+}

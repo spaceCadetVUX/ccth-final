@@ -1,0 +1,612 @@
+{
+  "module": "IU06",
+  "questions": [
+    {
+      "topic": "6.1 Kiến thức cơ bản về Internet",
+      "q": "Theo giáo trình, Internet là gì?",
+      "options": [
+        "Một mạng LAN duy nhất của một doanh nghiệp, chỉ cho phép nhân viên nội bộ truy nhập",
+        "Một phần mềm trình duyệt dùng để xem các trang web trên mạng",
+        "Hệ thống thông tin toàn cầu, truy nhập công cộng, gồm các mạng máy tính được liên kết với nhau",
+        "Một mạng máy tính riêng của các cơ quan chính phủ, không dành cho người dùng cá nhân"
+      ],
+      "answer": 2,
+      "explain": "Mục 6.1: Internet là hệ thống thông tin toàn cầu, có thể truy nhập công cộng, gồm các mạng máy tính được liên kết với nhau."
+    },
+    {
+      "topic": "6.1 Kiến thức cơ bản về Internet",
+      "q": "Internet truyền thông tin theo kiểu chuyển mạch gói (packet switching) dựa trên bộ giao thức chuẩn hóa nào?",
+      "options": [
+        "TCP/IP",
+        "IPX/SPX",
+        "NetBEUI",
+        "AppleTalk"
+      ],
+      "answer": 0,
+      "explain": "Mục 6.1: Internet truyền dữ liệu theo kiểu chuyển mạch gói dựa trên bộ giao thức chuẩn hóa TCP/IP."
+    },
+    {
+      "topic": "6.1 Kiến thức cơ bản về Internet",
+      "q": "Địa chỉ IPv4 có chiều dài bao nhiêu bit?",
+      "options": [
+        "16 bit",
+        "48 bit",
+        "64 bit",
+        "32 bit"
+      ],
+      "answer": 3,
+      "explain": "Mục 6.1: IPv4 dài 32 bit (biểu diễn bằng 4 số thập phân), còn IPv6 dài 128 bit."
+    },
+    {
+      "topic": "6.1 Kiến thức cơ bản về Internet",
+      "q": "Vì sao Internet đang chuyển đổi dần từ IPv4 sang IPv6?",
+      "options": [
+        "Vì IPv6 cho phép truy cập Internet miễn phí mà không cần đăng ký với ISP",
+        "Vì không gian địa chỉ IPv4 (32 bit) đã cạn kiệt trong khi Internet phát triển quá nhanh",
+        "Vì IPv4 không truyền được dữ liệu dạng hình ảnh và video",
+        "Vì IPv4 chỉ hoạt động được trong mạng LAN, không dùng được trên Internet"
+      ],
+      "answer": 1,
+      "explain": "Mục 6.1: do Internet phát triển quá nhanh, IPv4 (32 bit) đã cạn kiệt nên chuyển dần sang IPv6 (128 bit)."
+    },
+    {
+      "topic": "6.1 Kiến thức cơ bản về Internet",
+      "q": "Địa chỉ nào sau đây là địa chỉ IPv4 hợp lệ?",
+      "options": [
+        "192.168.1.256",
+        "172.16.19.5",
+        "172.16.19",
+        "172.16.19.5.1"
+      ],
+      "answer": 1,
+      "explain": "Mục 6.1: IPv4 gồm đúng 4 số thập phân, mỗi số từ 0 đến 255, phân cách bằng dấu chấm; 172.16.19.5 là ví dụ trong giáo trình."
+    },
+    {
+      "topic": "6.1 Kiến thức cơ bản về Internet",
+      "q": "Chức năng chính của hệ thống tên miền DNS là gì?",
+      "options": [
+        "Mã hóa dữ liệu truyền giữa trình duyệt và website",
+        "Cấp tài khoản và mật khẩu đăng nhập cho người dùng Internet",
+        "Diệt virus và phần mềm gián điệp trên các máy chủ web",
+        "Ánh xạ giữa tên miền và địa chỉ IP để người dùng dễ truy cập website hơn"
+      ],
+      "answer": 3,
+      "explain": "Mục 6.1: DNS ánh xạ giữa tên và IP, ví dụ www.tuoitre.vn dễ nhớ hơn địa chỉ IP 123.30.128.10."
+    },
+    {
+      "topic": "6.1 Kiến thức cơ bản về Internet",
+      "q": "Trong tên miền www.tuoitre.vn, phần '.vn' cho biết điều gì?",
+      "options": [
+        "Tên miền cấp cao nhất (TLD) mã quốc gia của Việt Nam",
+        "Giao thức truyền tập tin đang được sử dụng",
+        "Tên nhà cung cấp dịch vụ Internet (ISP) của website",
+        "Kiểu mã hóa bảo mật của trang web"
+      ],
+      "answer": 0,
+      "explain": "Kiến thức Internet phổ thông (liên quan mục 6.1 - Tên miền): .vn là tên miền cấp cao nhất mã quốc gia (ccTLD) của Việt Nam."
+    },
+    {
+      "topic": "6.1 Kiến thức cơ bản về Internet",
+      "q": "Đơn vị nào thuê đường truyền và cổng kết nối quốc tế của IAP để cung cấp dịch vụ Internet cho tổ chức và cá nhân?",
+      "options": [
+        "DNS server",
+        "Web server",
+        "ISP (Internet Service Provider)",
+        "Trình duyệt web"
+      ],
+      "answer": 2,
+      "explain": "Mục 6.1: ISP phải thuê đường truyền và cổng của một IAP (Internet Access Provider) rồi cung cấp dịch vụ cho người dùng."
+    },
+    {
+      "topic": "6.1 Kiến thức cơ bản về Internet",
+      "q": "Khi đăng ký dịch vụ với một ISP, người dùng được cấp tài khoản gồm những thành phần nào?",
+      "options": [
+        "Địa chỉ MAC và tên miền riêng",
+        "Địa chỉ email và số điện thoại di động",
+        "Địa chỉ IP tĩnh và chứng chỉ số",
+        "Tên đăng nhập (User name) và mật khẩu (Password)"
+      ],
+      "answer": 3,
+      "explain": "Mục 6.1: tài khoản ISP gồm User name và Password, dùng để quản lý truy cập và tính phí."
+    },
+    {
+      "topic": "6.1 Kiến thức cơ bản về Internet",
+      "q": "Dịch vụ Internet được sử dụng nhiều nhất, chứa thông tin gồm văn bản, hình ảnh, âm thanh và video kết hợp với nhau là:",
+      "options": [
+        "FTP",
+        "Thư điện tử (Email)",
+        "WWW (World Wide Web)",
+        "DNS"
+      ],
+      "answer": 2,
+      "explain": "Mục 6.1: dịch vụ Web (WWW) là dịch vụ được dùng nhiều nhất, giúp người dùng không chuyên vẫn sử dụng được Internet."
+    },
+    {
+      "topic": "6.1 Kiến thức cơ bản về Internet",
+      "q": "Dịch vụ nào được dùng để truyền tập tin (nạp lên/tải xuống) giữa máy tính và máy chủ từ xa?",
+      "options": [
+        "FTP (File Transfer Protocol)",
+        "DNS",
+        "DHCP",
+        "NTP"
+      ],
+      "answer": 0,
+      "explain": "Mục 6.1: FTP là dịch vụ chuyển tập tin giữa các máy; chép về máy là downloading, chép lên máy chủ là uploading."
+    },
+    {
+      "topic": "6.1 Kiến thức cơ bản về Internet",
+      "q": "Dịch vụ nào sau đây là dịch vụ lưu trữ dữ liệu trực tuyến (cloud storage)?",
+      "options": [
+        "Mozilla Firefox",
+        "Dropbox",
+        "Microsoft Outlook",
+        "Google Translate"
+      ],
+      "answer": 1,
+      "explain": "Mục 6.1 (Dịch vụ lưu trữ dữ liệu trực tuyến): Dropbox, Google Drive, OneDrive lưu dữ liệu trên máy chủ Internet; Firefox là trình duyệt, Outlook là email client, Translate là dịch vụ dịch."
+    },
+    {
+      "topic": "6.2 Bảo mật khi làm việc với Internet",
+      "q": "Mật khẩu nào sau đây an toàn nhất?",
+      "options": [
+        "nguyenvana1995",
+        "12345678",
+        "Tv#8kQ!2mLp9xR",
+        "matkhau@123"
+      ],
+      "answer": 2,
+      "explain": "Mục 6.2 (Bảo mật tài khoản): mật khẩu mạnh cần đủ dài, ngẫu nhiên, kết hợp chữ hoa, chữ thường, số, ký tự đặc biệt và không chứa thông tin cá nhân."
+    },
+    {
+      "topic": "6.2 Bảo mật khi làm việc với Internet",
+      "q": "Xác thực hai yếu tố (2FA) giúp tăng bảo mật tài khoản bằng cách nào?",
+      "options": [
+        "Tự động đổi mật khẩu sau mỗi lần đăng nhập",
+        "Mã hóa toàn bộ nội dung email đã gửi",
+        "Chặn tất cả quảng cáo và cửa sổ pop-up trên website",
+        "Yêu cầu thêm một yếu tố xác minh (như mã OTP) ngoài mật khẩu khi đăng nhập"
+      ],
+      "answer": 3,
+      "explain": "Mục 6.2 (Bảo mật tài khoản): 2FA đòi hỏi yếu tố thứ hai nên chỉ lộ mật khẩu vẫn chưa đủ để chiếm tài khoản."
+    },
+    {
+      "topic": "6.2 Bảo mật khi làm việc với Internet",
+      "q": "Một email giả danh ngân hàng yêu cầu bấm vào liên kết để 'xác minh tài khoản' rồi nhập tên đăng nhập và mật khẩu. Đây là hình thức tấn công nào?",
+      "options": [
+        "DDoS",
+        "Phishing (lừa đảo giả mạo)",
+        "Brute force",
+        "Ransomware"
+      ],
+      "answer": 1,
+      "explain": "Mục 6.2 (Tránh các trang web độc hại): phishing giả mạo tổ chức uy tín bằng email hoặc trang web giả để đánh cắp thông tin đăng nhập."
+    },
+    {
+      "topic": "6.2 Bảo mật khi làm việc với Internet",
+      "q": "Phần mềm gián điệp (spyware) là loại phần mềm:",
+      "options": [
+        "Âm thầm theo dõi, thu thập thông tin của người dùng và gửi cho bên thứ ba",
+        "Tự động sao lưu dữ liệu của người dùng lên máy chủ đám mây",
+        "Tăng tốc độ tải tệp từ Internet về máy",
+        "Lọc thư rác trong hộp thư đến"
+      ],
+      "answer": 0,
+      "explain": "Mục 6.2 (Tránh các phần mềm gián điệp): spyware theo dõi và thu thập thông tin người dùng mà người dùng không hay biết."
+    },
+    {
+      "topic": "6.2 Bảo mật khi làm việc với Internet",
+      "q": "Trước khi nhập thông tin thẻ thanh toán trên một website, dấu hiệu nào cho thấy kết nối tới website được mã hóa?",
+      "options": [
+        "Địa chỉ website bắt đầu bằng http:// (không có chữ s)",
+        "Tên miền kết thúc bằng .com",
+        "Trang web có nhiều quảng cáo và ưu đãi hấp dẫn",
+        "Địa chỉ website bắt đầu bằng https://"
+      ],
+      "answer": 3,
+      "explain": "Kiến thức Internet phổ thông (liên quan mục 6.2): HTTPS mã hóa kết nối bằng TLS/SSL, còn http:// truyền dữ liệu không mã hóa."
+    },
+    {
+      "topic": "6.2 Bảo mật khi làm việc với Internet",
+      "q": "Biện pháp nào giúp giảm nguy cơ nhiễm phần mềm độc hại và phần mềm gián điệp khi dùng Internet?",
+      "options": [
+        "Tắt phần mềm diệt virus và tường lửa để máy chạy nhanh hơn",
+        "Tải phần mềm bẻ khóa (crack) từ các trang chia sẻ không rõ nguồn gốc",
+        "Cài phần mềm diệt virus/anti-spyware, cập nhật thường xuyên và chỉ tải phần mềm từ nguồn tin cậy",
+        "Mở mọi tệp đính kèm nhận được qua email, kể cả từ người lạ"
+      ],
+      "answer": 2,
+      "explain": "Mục 6.2 (Tránh các phần mềm gián điệp): dùng phần mềm bảo vệ được cập nhật và chỉ tải phần mềm từ nguồn tin cậy."
+    },
+    {
+      "topic": "6.2 Bảo mật khi làm việc với Internet",
+      "q": "Hành vi nào sau đây phù hợp với nguyên tắc bảo mật thông tin cá nhân khi dùng mạng xã hội?",
+      "options": [
+        "Thiết lập quyền riêng tư cho bài đăng và không công khai số điện thoại, địa chỉ nhà",
+        "Đăng ảnh chụp CCCD lên trang cá nhân để mọi người xác nhận danh tính",
+        "Chia sẻ mật khẩu tài khoản cho bạn bè thân để họ giúp quản lý",
+        "Dùng chung một mật khẩu cho tất cả tài khoản để dễ nhớ"
+      ],
+      "answer": 0,
+      "explain": "Mục 6.2 (Bảo mật thông tin cá nhân): hạn chế công khai thông tin nhạy cảm và không chia sẻ mật khẩu."
+    },
+    {
+      "topic": "6.3 Sử dụng trình duyệt web",
+      "q": "Phần mềm nào sau đây là trình duyệt web?",
+      "options": [
+        "Microsoft Outlook",
+        "Mozilla Firefox",
+        "FileZilla",
+        "Google Drive"
+      ],
+      "answer": 1,
+      "explain": "Mục 6.3: trình duyệt web (Chrome, Firefox, Edge...) dùng để truy cập và hiển thị trang web; Outlook là email client, FileZilla là FTP client, Google Drive là dịch vụ lưu trữ."
+    },
+    {
+      "topic": "6.3 Sử dụng trình duyệt web",
+      "q": "Trong địa chỉ https://www.tuoitre.vn/the-thao.htm, thành phần 'https' là:",
+      "options": [
+        "Tên miền của website",
+        "Đường dẫn tới trang cần xem",
+        "Tên tệp được yêu cầu",
+        "Giao thức được dùng để truy cập tài nguyên"
+      ],
+      "answer": 3,
+      "explain": "Mục 6.3 (Nhập địa chỉ trang web): URL có dạng giao thức://tên miền/đường dẫn, trong đó https là giao thức."
+    },
+    {
+      "topic": "6.3 Sử dụng trình duyệt web",
+      "q": "Trong Chrome, Edge và Firefox trên Windows, tổ hợp phím nào mở nhanh lịch sử duyệt web (History)?",
+      "options": [
+        "Ctrl+T",
+        "Ctrl+P",
+        "Ctrl+H",
+        "Ctrl+F"
+      ],
+      "answer": 2,
+      "explain": "Mục 6.3 (Xem lịch sử duyệt web): Ctrl+H mở History; Ctrl+T mở tab mới, Ctrl+P in trang, Ctrl+F tìm trong trang."
+    },
+    {
+      "topic": "6.3 Sử dụng trình duyệt web",
+      "q": "Chức năng Bookmarks (Đánh dấu trang) trong trình duyệt dùng để làm gì?",
+      "options": [
+        "Tải toàn bộ website về máy để xem khi không có mạng",
+        "Lưu địa chỉ trang web yêu thích để mở lại nhanh mà không phải gõ lại địa chỉ",
+        "Xóa lịch sử duyệt web và cookie sau mỗi lần đóng trình duyệt",
+        "Chặn các trang web có nội dung độc hại"
+      ],
+      "answer": 1,
+      "explain": "Mục 6.3 (Đánh dấu trang): Bookmarks lưu lại địa chỉ trang web để truy cập lại nhanh (phím tắt thêm bookmark là Ctrl+D)."
+    },
+    {
+      "topic": "6.3 Sử dụng trình duyệt web",
+      "q": "Để lưu trang web hiện tại về máy thành tệp (Save page as), ta dùng tổ hợp phím nào?",
+      "options": [
+        "Ctrl+S",
+        "Ctrl+P",
+        "Ctrl+N",
+        "Ctrl+R"
+      ],
+      "answer": 0,
+      "explain": "Mục 6.3 (Lưu lại trang web): Ctrl+S mở hộp thoại lưu trang; Ctrl+P in, Ctrl+N mở cửa sổ mới, Ctrl+R tải lại trang."
+    },
+    {
+      "topic": "6.3 Sử dụng trình duyệt web",
+      "q": "Để tải một hình ảnh trên trang web về máy, thao tác nhanh nhất là:",
+      "options": [
+        "Nhấp chuột phải vào hình và chọn Copy link address",
+        "Nhấp đúp vào hình rồi nhấn phím F5",
+        "Nhấp chuột phải vào hình và chọn Save image as...",
+        "Nhấn Ctrl+D khi đang xem trang"
+      ],
+      "answer": 2,
+      "explain": "Mục 6.3 (Tải hình ảnh, dữ liệu, video): menu chuột phải có lệnh Save image as... (Lưu hình ảnh thành...)."
+    },
+    {
+      "topic": "6.3 Sử dụng trình duyệt web",
+      "q": "Chế độ duyệt web ẩn danh (Incognito / InPrivate / Private) có đặc điểm nào sau đây?",
+      "options": [
+        "Che giấu hoàn toàn hoạt động duyệt web khỏi website và nhà cung cấp dịch vụ Internet (ISP)",
+        "Mã hóa toàn bộ dữ liệu truyền đi nên không thể bị theo dõi",
+        "Tự động chặn mọi phần mềm độc hại và trang lừa đảo",
+        "Không lưu lịch sử duyệt web, cookie và dữ liệu biểu mẫu trên máy sau khi đóng cửa sổ"
+      ],
+      "answer": 3,
+      "explain": "Mục 6.3 (Xem lịch sử duyệt web): chế độ ẩn danh chỉ không lưu dấu vết cục bộ trên máy, website và ISP vẫn thấy được hoạt động."
+    },
+    {
+      "topic": "6.4 Sử dụng Website",
+      "q": "Siêu liên kết (hyperlink) trên một trang web có tác dụng gì?",
+      "options": [
+        "Chuyển đến trang web hoặc tài nguyên khác khi người dùng nhấp vào",
+        "Mã hóa nội dung trang web trước khi hiển thị",
+        "Ghi lại lịch sử truy cập vào một tệp trên máy người dùng",
+        "Tự động gửi email đến chủ sở hữu trang web"
+      ],
+      "answer": 0,
+      "explain": "Mục 6.4 (Truy cập các trang web thông thường): hyperlink là thành phần giúp điều hướng từ trang này sang trang hoặc tài nguyên khác."
+    },
+    {
+      "topic": "6.4 Sử dụng Website",
+      "q": "Để công cụ tìm kiếm Google chỉ trả về kết quả chứa đúng nguyên cụm từ cần tìm (exact match), ta nên đặt cụm từ trong:",
+      "options": [
+        "Dấu ngoặc đơn",
+        "Dấu ngoặc kép",
+        "Dấu ngoặc nhọn",
+        "Dấu sao (*)"
+      ],
+      "answer": 1,
+      "explain": "Mục 6.4 (Truy cập các trang web thông thường): đặt cụm từ trong dấu ngoặc kép yêu cầu Google khớp chính xác cụm từ đó."
+    },
+    {
+      "topic": "6.4 Sử dụng Website",
+      "q": "Sau khi dùng xong tài khoản trên trang web yêu cầu đăng nhập ở máy tính công cộng (quán net, thư viện), cần làm gì?",
+      "options": [
+        "Chỉ cần đóng tab trình duyệt, vì phiên đăng nhập luôn tự hủy ngay",
+        "Chọn Đăng xuất (Log out / Sign out) và không cho trình duyệt lưu mật khẩu",
+        "Tắt màn hình nhưng vẫn để nguyên trình duyệt đang mở",
+        "Chọn 'Ghi nhớ đăng nhập' để lần sau vào nhanh hơn"
+      ],
+      "answer": 1,
+      "explain": "Mục 6.4 (Truy cập các trang web yêu cầu đăng nhập): trên máy dùng chung phải đăng xuất và không lưu mật khẩu để tránh bị người khác dùng tài khoản."
+    },
+    {
+      "topic": "6.4 Sử dụng Website",
+      "q": "Dịch vụ nào sau đây cho phép người dùng tự xây dựng trang web cá nhân miễn phí mà không cần biết lập trình?",
+      "options": [
+        "Google Sites",
+        "Google Translate",
+        "Google Drive",
+        "Gmail"
+      ],
+      "answer": 0,
+      "explain": "Mục 6.4 (Tạo trang cá nhân): Google Sites cho phép dựng website cá nhân bằng giao diện kéo thả với tài khoản Google; Translate dịch văn bản, Drive lưu trữ, Gmail là email."
+    },
+    {
+      "topic": "6.4 Sử dụng Website",
+      "q": "Trên mạng xã hội như Facebook, bài đăng ở chế độ 'Công khai' (Public) nghĩa là:",
+      "options": [
+        "Chỉ người đăng bài xem được",
+        "Chỉ bạn bè của người đăng xem được",
+        "Bất kỳ ai, kể cả người không phải bạn bè, đều có thể xem",
+        "Chỉ những người được gắn thẻ (tag) trong bài mới xem được"
+      ],
+      "answer": 2,
+      "explain": "Mục 6.4 (Tạo trang cá nhân): khi quản lý trang cá nhân cần chọn đối tượng xem phù hợp; chế độ Công khai cho phép mọi người xem bài đăng."
+    },
+    {
+      "topic": "6.4 Sử dụng Website",
+      "q": "Khi quên mật khẩu tài khoản trên một website, cách xử lý đúng là gì?",
+      "options": [
+        "Đăng ký thêm nhiều tài khoản mới bằng cùng một địa chỉ email",
+        "Nhờ bạn bè đăng nhập giúp bằng tài khoản của họ",
+        "Tải công cụ dò mật khẩu về để thử tự động",
+        "Dùng chức năng 'Quên mật khẩu' (Forgot password) để đặt lại qua email hoặc số điện thoại đã đăng ký"
+      ],
+      "answer": 3,
+      "explain": "Mục 6.4 (Truy cập các trang web yêu cầu đăng nhập): website cung cấp chức năng Forgot password để đặt lại mật khẩu qua kênh đã đăng ký."
+    },
+    {
+      "topic": "6.5 Sử dụng thư điện tử",
+      "q": "Đặc điểm nào sau đây đúng với thư điện tử (email)?",
+      "options": [
+        "Có thể chuyển thông tin từ một máy nguồn tới một hoặc nhiều máy nhận cùng lúc qua mạng máy tính",
+        "Chỉ gửi được đến một người nhận tại một thời điểm",
+        "Chỉ hoạt động trong mạng LAN nội bộ, không đi qua Internet",
+        "Chỉ truyền được nội dung dạng hình ảnh, không truyền được văn bản"
+      ],
+      "answer": 0,
+      "explain": "Mục 6.5 (Giới thiệu Email): thư có thể chuyển từ một máy nguồn tới một hay rất nhiều máy nhận trong cùng lúc, đặc biệt qua Internet."
+    },
+    {
+      "topic": "6.5 Sử dụng thư điện tử",
+      "q": "Web Mail (thư điện tử qua Web) có đặc điểm nào sau đây?",
+      "options": [
+        "Bắt buộc phải cài phần mềm chuyên dụng lên từng máy tính của người dùng",
+        "Chỉ dùng được khi máy tính không kết nối Internet",
+        "Không cần cài đặt phần mềm riêng, được cung ứng bởi máy chủ web trên Internet và truy cập qua trình duyệt",
+        "Chỉ sử dụng được trên hệ điều hành Windows"
+      ],
+      "answer": 2,
+      "explain": "Mục 6.5 (Phân biệt Email): WebMail không cần cài đặt, do web server cung ứng, ví dụ gmail.com, hotmail.com, mail.yahoo.com."
+    },
+    {
+      "topic": "6.5 Sử dụng thư điện tử",
+      "q": "Phần mềm nào sau đây là email client (còn gọi là MUA - Mail User Agent) được cài đặt trên máy tính người dùng?",
+      "options": [
+        "gmail.com",
+        "Microsoft Outlook",
+        "mail.yahoo.com",
+        "hotmail.com"
+      ],
+      "answer": 1,
+      "explain": "Mục 6.5 (Email Client): Microsoft Outlook, Eudora... là email client (MUA), còn gmail.com, mail.yahoo.com, hotmail.com là WebMail."
+    },
+    {
+      "topic": "6.5 Sử dụng thư điện tử",
+      "q": "Khi gửi email, người nhận được thêm vào trường Bcc sẽ:",
+      "options": [
+        "Là người nhận chính duy nhất của thư",
+        "Được hiển thị địa chỉ cho tất cả những người nhận khác",
+        "Chỉ nhận thông báo có thư mà không đọc được nội dung",
+        "Nhận được thư nhưng địa chỉ không hiển thị cho những người nhận khác"
+      ],
+      "answer": 3,
+      "explain": "Kiến thức email phổ thông (mục 6.5 - Cách gửi và nhận email): Bcc (Blind carbon copy) là bản sao ẩn, địa chỉ không hiện với những người nhận khác."
+    },
+    {
+      "topic": "6.5 Sử dụng thư điện tử",
+      "q": "Chức năng 'Trả lời tất cả' (Reply all) sẽ gửi thư trả lời đến:",
+      "options": [
+        "Chỉ người gửi thư gốc",
+        "Người gửi thư gốc và tất cả người nhận khác ở các trường To và Cc",
+        "Tất cả địa chỉ có trong danh bạ của người dùng",
+        "Chỉ những người nhận ở trường Bcc"
+      ],
+      "answer": 1,
+      "explain": "Kiến thức email phổ thông (mục 6.5 - Cách gửi và nhận email): Reply all gửi đến người gửi và mọi người nhận trong To và Cc, còn Reply chỉ gửi cho người gửi."
+    },
+    {
+      "topic": "6.5 Sử dụng thư điện tử",
+      "q": "Giao thức nào thường được dùng để gửi thư điện tử từ email client tới máy chủ mail?",
+      "options": [
+        "SMTP",
+        "POP3",
+        "IMAP",
+        "FTP"
+      ],
+      "answer": 0,
+      "explain": "Kiến thức email phổ thông (mục 6.5): SMTP dùng để gửi thư, còn POP3 và IMAP dùng để nhận thư."
+    },
+    {
+      "topic": "6.5 Sử dụng thư điện tử",
+      "q": "Theo giáo trình, sau khi đăng nhập tài khoản Google, người dùng được cấp không gian lưu trữ trực tuyến Google Drive miễn phí là bao nhiêu?",
+      "options": [
+        "1 GB",
+        "5 GB",
+        "50 GB",
+        "15 GB"
+      ],
+      "answer": 3,
+      "explain": "Mục 6.5 (Sử dụng Google Drive): giáo trình nêu dung lượng miễn phí 15 GB (dung lượng dùng chung với Gmail và Google Photos)."
+    },
+    {
+      "topic": "6.5 Sử dụng thư điện tử",
+      "q": "Tính năng Signature (chữ ký) trong cài đặt Gmail có tác dụng gì?",
+      "options": [
+        "Mã hóa nội dung thư để chỉ người nhận mới đọc được",
+        "Xác nhận thư gửi đi không chứa virus",
+        "Tự động chèn đoạn văn bản định sẵn (họ tên, chức danh, liên hệ) vào cuối thư khi soạn",
+        "Tự động dịch thư sang ngôn ngữ của người nhận"
+      ],
+      "answer": 2,
+      "explain": "Mục 6.5 (Google Mail - Tạo chữ ký): signature là đoạn văn bản được thiết lập sẵn và tự động chèn vào cuối thư soạn mới."
+    }
+  ],
+  "cards": [
+    {
+      "topic": "6.1 Kiến thức cơ bản về Internet",
+      "front": "Internet là gì?",
+      "back": "Hệ thống thông tin toàn cầu, truy nhập công cộng, gồm các mạng máy tính liên kết với nhau; truyền dữ liệu theo kiểu chuyển mạch gói (packet switching) dựa trên bộ giao thức TCP/IP."
+    },
+    {
+      "topic": "6.1 Kiến thức cơ bản về Internet",
+      "front": "IPv4 và IPv6 khác nhau thế nào?",
+      "back": "IPv4: 32 bit, gồm 4 số thập phân 0-255 phân cách bằng dấu chấm (VD 172.16.19.5), đã cạn kiệt. IPv6: 128 bit, đang thay thế dần. Mỗi máy (host) tham gia Internet phải có một địa chỉ IP."
+    },
+    {
+      "topic": "6.1 Kiến thức cơ bản về Internet",
+      "front": "DNS (Domain Name System) làm nhiệm vụ gì?",
+      "back": "Ánh xạ giữa tên miền và địa chỉ IP, giúp dễ nhớ hơn (VD www.tuoitre.vn tương ứng 123.30.128.10)."
+    },
+    {
+      "topic": "6.1 Kiến thức cơ bản về Internet",
+      "front": "IAP là gì?",
+      "back": "Internet Access Provider: nhà cung cấp dịch vụ đường truyền để kết nối Internet, quản lý cổng (gateway) nối ra quốc tế."
+    },
+    {
+      "topic": "6.1 Kiến thức cơ bản về Internet",
+      "front": "ISP là gì? Tài khoản ISP gồm gì?",
+      "back": "Internet Service Provider: nhà cung cấp dịch vụ Internet cho tổ chức và cá nhân, thuê đường truyền và cổng của IAP (VD FPT, Viettel). Tài khoản gồm User name và Password."
+    },
+    {
+      "topic": "6.1 Kiến thức cơ bản về Internet",
+      "front": "FTP là gì? Phân biệt downloading và uploading.",
+      "back": "File Transfer Protocol: dịch vụ chuyển tập tin giữa các máy. Downloading: chép file từ máy chủ từ xa về máy tính. Uploading: chép file từ máy tính lên máy chủ từ xa."
+    },
+    {
+      "topic": "6.1 Kiến thức cơ bản về Internet",
+      "front": "WWW (Web) là gì?",
+      "back": "Dịch vụ Internet được dùng nhiều nhất; chứa văn bản, hình ảnh, âm thanh, video kết hợp với nhau; các điểm chứa dữ liệu gọi là website."
+    },
+    {
+      "topic": "6.2 Bảo mật khi làm việc với Internet",
+      "front": "Đặc điểm của mật khẩu mạnh?",
+      "back": "Nên dài từ 12 ký tự trở lên, kết hợp chữ hoa, chữ thường, số và ký tự đặc biệt; không dùng thông tin cá nhân; mỗi tài khoản dùng một mật khẩu riêng."
+    },
+    {
+      "topic": "6.2 Bảo mật khi làm việc với Internet",
+      "front": "2FA là gì?",
+      "back": "Two-factor authentication (xác thực hai yếu tố): ngoài mật khẩu còn cần thêm một yếu tố xác minh khác như mã OTP hoặc ứng dụng xác thực."
+    },
+    {
+      "topic": "6.2 Bảo mật khi làm việc với Internet",
+      "front": "Phishing là gì?",
+      "back": "Lừa đảo giả mạo: dùng email hoặc trang web giả danh tổ chức uy tín để đánh cắp thông tin đăng nhập, thông tin thẻ của người dùng."
+    },
+    {
+      "topic": "6.2 Bảo mật khi làm việc với Internet",
+      "front": "Spyware là gì? Phòng ngừa thế nào?",
+      "back": "Phần mềm gián điệp âm thầm theo dõi và thu thập thông tin người dùng gửi cho bên khác. Phòng ngừa: cài antivirus/anti-spyware và cập nhật, chỉ tải phần mềm từ nguồn tin cậy."
+    },
+    {
+      "topic": "6.2 Bảo mật khi làm việc với Internet",
+      "front": "HTTPS khác HTTP ở điểm nào?",
+      "back": "HTTPS mã hóa kết nối giữa trình duyệt và website bằng TLS/SSL; HTTP truyền dữ liệu không mã hóa. HTTPS chỉ bảo đảm kết nối được mã hóa, chưa chứng minh website uy tín."
+    },
+    {
+      "topic": "6.3 Sử dụng trình duyệt web",
+      "front": "URL có cấu trúc như thế nào?",
+      "back": "Uniform Resource Locator: giao thức://tên miền/đường dẫn (VD https://www.tuoitre.vn/the-thao.htm), nhập vào thanh địa chỉ của trình duyệt."
+    },
+    {
+      "topic": "6.3 Sử dụng trình duyệt web",
+      "front": "Phím tắt thêm trang hiện tại vào Bookmarks?",
+      "back": "Ctrl+D. Bookmarks (Đánh dấu trang) lưu địa chỉ trang web yêu thích để mở lại nhanh."
+    },
+    {
+      "topic": "6.3 Sử dụng trình duyệt web",
+      "front": "Phím tắt mở lịch sử duyệt web (History)?",
+      "back": "Ctrl+H (Chrome, Edge, Firefox trên Windows)."
+    },
+    {
+      "topic": "6.3 Sử dụng trình duyệt web",
+      "front": "Phím tắt lưu trang web hiện tại về máy?",
+      "back": "Ctrl+S (Save page as)."
+    },
+    {
+      "topic": "6.3 Sử dụng trình duyệt web",
+      "front": "Chế độ ẩn danh (Incognito / InPrivate / Private) làm được gì và không làm được gì?",
+      "back": "Không lưu lịch sử duyệt web, cookie, dữ liệu biểu mẫu trên máy sau khi đóng cửa sổ; nhưng website và ISP vẫn thấy được hoạt động, không tự chặn mã độc."
+    },
+    {
+      "topic": "6.4 Sử dụng Website",
+      "front": "Hyperlink (siêu liên kết) là gì?",
+      "back": "Thành phần trên trang web (chữ, hình) cho phép chuyển đến trang hoặc tài nguyên khác khi nhấp vào."
+    },
+    {
+      "topic": "6.4 Sử dụng Website",
+      "front": "Dùng xong trang web yêu cầu đăng nhập trên máy công cộng cần làm gì?",
+      "back": "Đăng xuất (Log out / Sign out) và không cho trình duyệt lưu mật khẩu."
+    },
+    {
+      "topic": "6.4 Sử dụng Website",
+      "front": "Mạng xã hội và trang cá nhân: cần lưu ý gì?",
+      "back": "Mạng xã hội (VD Facebook, Zalo) cho phép tạo trang cá nhân, kết nối và chia sẻ thông tin; cần thiết lập quyền riêng tư (Công khai, Bạn bè, Chỉ mình tôi) và không đăng thông tin nhạy cảm."
+    },
+    {
+      "topic": "6.5 Sử dụng thư điện tử",
+      "front": "WebMail là gì? Cho ví dụ.",
+      "back": "Phần mềm thư điện tử không cần cài đặt, do web server trên Internet cung ứng, truy cập qua trình duyệt. VD gmail.com, hotmail.com, mail.yahoo.com."
+    },
+    {
+      "topic": "6.5 Sử dụng thư điện tử",
+      "front": "Email Client (MUA) là gì? Cho ví dụ.",
+      "back": "Phần mềm thư điện tử cài đặt trên máy người dùng, còn gọi là MUA (Mail User Agent) hay email application. VD Microsoft Outlook, Eudora."
+    },
+    {
+      "topic": "6.5 Sử dụng thư điện tử",
+      "front": "Phân biệt To, Cc và Bcc?",
+      "back": "To: người nhận chính. Cc (Carbon copy): bản sao, mọi người nhận đều thấy địa chỉ. Bcc (Blind carbon copy): bản sao ẩn, địa chỉ không hiển thị cho người nhận khác."
+    },
+    {
+      "topic": "6.5 Sử dụng thư điện tử",
+      "front": "SMTP, POP3, IMAP dùng để làm gì?",
+      "back": "SMTP: gửi thư. POP3 và IMAP: nhận thư (IMAP đồng bộ hộp thư trên máy chủ)."
+    },
+    {
+      "topic": "6.5 Sử dụng thư điện tử",
+      "front": "Google Drive và Google Translate là gì?",
+      "back": "Google Drive: không gian lưu trữ trực tuyến gắn với tài khoản Google, miễn phí 15 GB theo giáo trình. Google Translate: dịch văn bản và trang web giữa nhiều ngôn ngữ."
+    }
+  ]
+}
