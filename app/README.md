@@ -1,5 +1,7 @@
 # Web app ôn thi Tin học cơ bản
 
+**Website:** https://spacecadetvux.github.io/ccth-final/app/ (tự deploy khi push lên nhánh `main`, xem mục Triển khai).
+
 Chạy offline: bấm đúp `index.html` (mở bằng Chrome hoặc Edge). Không cần cài gì, không gửi dữ liệu ra ngoài.
 
 ## Tính năng
@@ -9,12 +11,29 @@ Chạy offline: bấm đúp `index.html` (mở bằng Chrome hoặc Edge). Khôn
 | Tổng quan | Việc hôm nay, số câu/thẻ đến hạn ôn, độ chính xác theo mô đun, xuất/nhập tiến độ |
 | Lộ trình | 21 ngày (20 ngày ôn + ngày thi) có tick hoàn thành. Đổi ngày thi thì cả lộ trình dịch theo |
 | Trắc nghiệm | 280 câu IU01–IU06. Chế độ thông minh (câu đến hạn rồi câu mới), chỉ câu từng sai, ngẫu nhiên, hoặc "hay gặp trong đề thật" (chỉ bật khi đã có dữ liệu đề thật). Có giải thích ngay sau mỗi câu |
+| Đề trắc nghiệm | 280 câu chia cố định thành 14 đề × 20 câu (Đề 1–14, câu 1–20, mỗi đề trộn các mô đun, thứ tự câu và đáp án không đổi giữa các lần mở). Làm → nộp → chấm thang 10 (kèm điểm theo mô đun), xem lại đáp án và giải thích, lọc câu sai. Có đồng hồ bấm giờ (không giới hạn thời gian), lưu lịch sử mọi lượt làm, bài làm dở tự lưu và tiếp tục được. Câu sai tự vào lịch ôn của tab Trắc nghiệm và Sổ lỗi |
 | Thẻ nhớ | 210 thẻ (hàm Excel, phím tắt, thao tác). "Chưa nhớ" quay lại ngay, "Nhớ" lặp lại sau 1, 3, 7, 14 ngày |
 | Đề thực hành | **Đề mẫu IUH chính thức** ở đầu tab (từ `../de-mau-iuh/`): quy định của đề, tải trọn bộ zip hoặc từng file dữ liệu, đồng hồ 90 phút, checklist 25 ý chấm theo thang điểm của đề (có hình trong đề, cách làm, và kết quả đúng của phần Excel) tự tính điểm /10. Bên dưới là 30 đề PDF của trường khác quét tự động từ `../de-thuc-hanh/` (6 đề trọn bộ KHTN 120 phút, 4 Word, 10 Excel, 10 PowerPoint). Mỗi đề có nút Mở, Tải và "Làm đề này" (mở đề, chạy đồng hồ 120 phút cho đề trọn bộ hoặc 30 phút cho đề mô đun, ghi điểm tự chấm). Hiện số lần đã làm và điểm cao nhất theo từng đề |
 | Thi thử | Lý thuyết 30 câu/30 phút, chấm điểm /10. Thực hành: đồng hồ 120 phút chia 5 chặng, ghi điểm tự chấm |
 | Sổ lỗi | Ghi lỗi thực hành đã mắc và cách làm đúng, tick khi đã khắc phục |
 
-Tiến độ lưu trong trình duyệt (localStorage). Xoá dữ liệu trình duyệt sẽ mất tiến độ, nên thỉnh thoảng bấm "Xuất tiến độ" ở tab Tổng quan để sao lưu.
+Tiến độ, kết quả các đề trắc nghiệm và bài làm dở lưu trong trình duyệt (localStorage, theo từng trình duyệt và từng thư mục mở file; mở bằng Chrome và Edge sẽ là hai bộ dữ liệu riêng).
+
+Cách chia đề: câu hỏi được chia lần lượt theo thứ tự ngân hàng (`src/IU01…IU06`), nên thêm hoặc xoá câu sẽ làm thành phần các đề thay đổi. Lịch sử cũ vẫn xem lại được vì mỗi lượt lưu danh sách câu đã làm, nhưng câu bị sửa chữ hoặc xoá sẽ không hiện lại. Số câu không chia hết cho 20 thì một số đề có 21 câu. Xoá dữ liệu trình duyệt sẽ mất tiến độ, nên thỉnh thoảng bấm "Xuất tiến độ" ở tab Tổng quan để sao lưu.
+
+## Giao diện
+
+- **Responsive 3 mốc:** điện thoại (< 600px: thanh dưới 5 mục + bảng "Khác"), tablet (600–959px), desktop (≥ 960px: thanh bên có nhóm mục). Đã kiểm tra bằng ảnh chụp ở 390, 768 và 1280px.
+- **Sáng/tối:** nút ở góc trên phải đổi Tự động, Sáng, Tối (lưu lại). Mọi cặp màu chữ đều đạt tỉ lệ tương phản WCAG AA (≥ 4,5:1) ở cả hai chế độ.
+- **Dễ dùng:** vùng chạm ≥ 44px, hộp thoại xác nhận riêng thay cho `alert/confirm`, thông báo toast, màn làm bài tập trung (ẩn thanh điều hướng, có thanh thao tác cố định phía dưới), trạng thái đúng/sai có biểu tượng và chữ chứ không chỉ màu.
+- **Phím tắt:** `A–D` hoặc `1–4` chọn đáp án, `←` `→` chuyển câu, `Enter` câu tiếp (trắc nghiệm tự do), `Space` lật thẻ, `Esc` đóng hộp thoại.
+- **Địa chỉ từng mục:** `#home`, `#plan`, `#quiz`, `#tn`, `#cards`, `#prac`, `#mock`, `#errors`. Nút Back của trình duyệt quay lại mục trước.
+- **An toàn dữ liệu:** chip "Đã lưu hh:mm" ở đầu trang, cảnh báo đỏ nếu trình duyệt không cho ghi, nút tải file sao lưu `.json` và khôi phục từ file ở mục Tổng quan. Dữ liệu cũ bị hỏng không làm app chết: bản gốc được giữ lại trong trình duyệt và có thông báo.
+- File: `index.html` (khung), `style.css` (design tokens và thành phần), `ui.js` (icon SVG nội tuyến, toast, hộp thoại), `app.js` (logic và các trang), `data.js` (do `build_data.py` sinh ra).
+
+## Triển khai
+
+Workflow `.github/workflows/pages.yml` chạy mỗi khi push lên `main` và đưa `app/`, `de-mau-iuh/`, `de-thuc-hanh/`, `giao-trinh/` lên GitHub Pages (giữ nguyên cấu trúc thư mục vì `data.js` dùng đường dẫn `../de-...`). Site không chạy `build_data.py`, nên sau khi sửa câu hỏi hoặc đề hãy chạy `cd app && python build_data.py src` rồi commit cả `data.js` lẫn `de-mau-iuh/DeMau_IUH_tron-bo.zip`.
 
 ## Giới hạn cần biết
 

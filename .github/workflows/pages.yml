@@ -24,9 +24,9 @@ jobs:
       - uses: actions/checkout@v4
       - name: Gom app và tài liệu vào site
         run: |
-          # data.js trỏ tới ../de-thuc-hanh nên giữ nguyên cấu trúc thư mục
+          # data.js trỏ tới ../de-thuc-hanh và ../de-mau-iuh nên giữ nguyên cấu trúc thư mục
           mkdir _site
-          cp -r app giao-trinh de-thuc-hanh _site/
+          cp -r app giao-trinh de-thuc-hanh de-mau-iuh _site/
           cat > _site/index.html <<'EOF'
           <!doctype html>
           <html lang="vi"><head><meta charset="utf-8">
