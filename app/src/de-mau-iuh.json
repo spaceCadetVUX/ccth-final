@@ -1,0 +1,104 @@
+{
+ "ghi_chu": "Đề mẫu thực hành IUH chính thức (file DeMau-ThucHanh_final.doc). Phần t, p, img lấy từ đề; phần hint và check do Claude soạn (Office 2016+, giao diện tiếng Anh), KHÔNG phải đáp án chính thức. check của Excel được tính bằng python từ dữ liệu trong DuLieuLambai-Excel.xlsx.",
+ "title": "Đề mẫu thực hành IUH (chính thức)",
+ "min": 90,
+ "src": "Trung tâm Tin học IUH, Đề mẫu \"Đề thi CNTT cơ bản\" 90 phút (file .doc sửa 20/06/2022), do bạn cung cấp",
+ "dir": "de-mau-iuh",
+ "rules": [
+  "Chỉ tính điểm khi lưu bài đúng thư mục yêu cầu. Sao chép file dữ liệu vào thư mục BaiThi... rồi đổi tên đúng: BaithiWord.docx, BaithiPowerPoint.pptx, BaithiExcel.xlsx. Bài thi lại: lưu theo yêu cầu của cán bộ coi thi.",
+  "Chấm theo phách: bài làm có thông tin nhận dạng thí sinh (họ tên, mã sinh viên...) bị coi là không hợp lệ. KHÔNG gõ tên hay mã sinh viên vào file bài làm. Họ tên và mã sinh viên chỉ ghi trên tờ đề.",
+  "Không dùng tài liệu, thiết bị lưu trữ và điện thoại trong phòng thi.",
+  "Thời gian làm bài 90 phút, không kể thời gian phát đề. Trong đề, Windows dùng tên \"File Explorer\" và \"Snipping Tool\", Word dùng WordArt/Table Style/Cover Page đời mới, nên phòng thi nhiều khả năng dùng Windows 8/10 và Office 2013 trở lên (suy luận từ đề, chưa xác nhận)."
+ ],
+ "files": [
+  {"label": "Đề thi (.doc, mở bằng Word)", "path": "DeMau-ThucHanh_final.doc"},
+  {"label": "Word: DuLieuThi-Word.docx", "path": "DuLieuThi-DeMau/DuLieuLambai-Word/DuLieuThi-Word.docx"},
+  {"label": "Excel: DuLieuLambai-Excel.xlsx", "path": "DuLieuThi-DeMau/DuLieuLambai-Excel.xlsx"},
+  {"label": "PowerPoint: Dulieuthi-PowerPoint.pptx", "path": "DuLieuThi-DeMau/DulieuLambai-PowerPoint/Dulieuthi-PowerPoint.pptx"},
+  {"label": "PowerPoint: Dulieu.xlsx (đồ thị slide 6)", "path": "DuLieuThi-DeMau/DulieuLambai-PowerPoint/Dulieu.xlsx"},
+  {"label": "PowerPoint: Mytheme.thmx", "path": "DuLieuThi-DeMau/DulieuLambai-PowerPoint/Mytheme.thmx"}
+ ],
+ "sections": [
+  {
+   "name": "Windows", "points": 1.0,
+   "items": [
+    {"id": "w1", "p": 0.25, "t": "Khởi động File Explorer và tạo nhánh thư mục như hình bên cạnh trong ổ đĩa quy định tại phòng thi.", "img": "win_cay-thu-muc.png",
+     "hint": "Win+E mở File Explorer. Ctrl+Shift+N tạo thư mục mới, gõ tên rồi Enter. Tên phải đúng từng ký tự như hình: BaiThi_CNTTCB chứa DuLieuHocTap (1_NamNhat, 2_NamHai, 3_NamBa, 4_NamCuoi) và LuuBaiThi (BaiThiExcel, BaiThiPowerPoint, BaiThiWin, BaiThiWord)."},
+    {"id": "w2", "p": 0.25, "t": "Tạo Shortcut khởi động chương trình Snipping Tool trong thư mục BaithiWin với tên 2_ChupHinh.",
+     "hint": "Vào thư mục BaiThiWin, chuột phải vào chỗ trống > New > Shortcut > Browse, chọn C:\\Windows\\System32\\SnippingTool.exe (nếu máy không có, gõ Snipping Tool ở Start, chuột phải > Open file location) > Next > đặt tên 2_ChupHinh > Finish."},
+    {"id": "w3", "p": 0.25, "t": "Thực hiện phép tính 2256 sau đó dùng Snipping Tool chụp hình kết quả, lưu vào thư mục BaiThiWin với tên 5_TinhToan.jpg.",
+     "hint": "Trong file .doc số mũ có thể là chỉ số trên (bản trích chữ chỉ thấy \"2256\"), hãy mở file đề để xem phép tính chính xác. Mở Calculator (Win+R gõ calc), chuyển Scientific nếu có lũy thừa (nút x^y). Chụp bằng Snipping Tool > Save As, kiểu JPEG, tên 5_TinhToan.jpg, lưu vào BaiThiWin."},
+    {"id": "w4", "p": 0.25, "t": "Tìm các tập tin có phần mở rộng \"cur\", size <= 10KB, sau đó chép 3 tập tin vào thư mục BaithiWin.",
+     "hint": "Trong File Explorer mở ổ C:, gõ *.cur vào ô tìm kiếm, tab Search > Size > Tiny (0 - 10 KB). Chọn 3 file, Ctrl+C, vào BaiThiWin, Ctrl+V. Kiểm tra lại dung lượng trong Properties nếu nghi ngờ."}
+   ]
+  },
+  {
+   "name": "Word", "points": 4.0,
+   "intro": "Sao chép DuLieuThi-Word.docx vào thư mục BaithiWord và đổi tên thành BaithiWord.docx, rồi làm các yêu cầu sau.",
+   "items": [
+    {"id": "d1a", "p": 0.25, "t": "WordArt: gán WordArt cho tiêu đề \"NGÀY QUỐC TẾ LAO ĐỘNG 1-5\" kiểu Fill - Gold, Accent 4, Soft Bevel; Transform: Triangle Down.",
+     "hint": "Chọn dòng tiêu đề > Insert > WordArt > chọn kiểu Fill - Gold, Accent 4, Soft Bevel. Chọn WordArt > Shape Format > Text Effects > Transform > Warp > Triangle Down."},
+    {"id": "d1b", "p": 0.25, "t": "Header: lề phải chèn chữ \"Bài thi CNTT cơ bản\". Footer: lề phải chèn số trang/tổng số trang.",
+     "hint": "Insert > Header > Edit Header, canh phải (Ctrl+R), gõ chữ. Chuyển xuống Footer, canh phải, Insert > Quick Parts > Field > chọn Page > OK, gõ \"/\", rồi Insert > Quick Parts > Field > chọn NumPages > OK. Hoặc Page Number > Current Position > Page X of Y, rồi canh phải."},
+    {"id": "d2a", "p": 0.25, "t": "Hiệu chỉnh style Heading 1 và Heading 2 (Times New Roman 13, đậm, màu Black Text 1, số thứ tự 1, 2, 3 và 1.1, 1.2; Spacing Before/After 6pt). Gán Heading 1 cho \"Lịch sử ngày quốc tế lao động 1-5\" và \"Ý nghĩa ngày quốc tế lao động 1-5\"; Heading 2 cho \"Một số sự kiện trên thế giới\" và \"Một số sự kiện trong nước\".",
+     "hint": "Home > Styles, chuột phải Heading 1 > Modify: font, size, Bold, màu Black Text 1; Format > Paragraph: Before 6pt, After 6pt. Đánh số: Home > Multilevel List > Define New Multilevel List, mức 1 liên kết (Link level to style) với Heading 1 kiểu 1, 2, 3; mức 2 liên kết Heading 2 kiểu 1.1, 1.2. Làm tương tự cho Heading 2, rồi gán style cho các dòng."},
+    {"id": "d2b", "p": 0.25, "t": "Tạo style tên DoanVan: Times New Roman 13, canh đều hai bên, First Line Indentation 0.5 inch. Dùng style DoanVan cho nội dung bên dưới các tiêu đề (1.1, 1.2, 2).",
+     "hint": "Chọn một đoạn văn > Home > Styles > Create a Style, đặt tên DoanVan > Modify: Times New Roman 13, Justify, Format > Paragraph > Special: First line = 0.5\". Sau đó chọn từng đoạn nội dung và bấm style DoanVan."},
+    {"id": "d3a", "p": 0.25, "t": "Chuyển phần nội dung từ \"STT\" đến \"Tp.Hồ Chí Minh\" sang dạng bảng (table).",
+     "hint": "Bôi đen từ dòng STT đến dòng Tp.Hồ Chí Minh > Insert > Table > Convert Text to Table, dữ liệu đang phân cách bằng Tab (4 cột), xác nhận số cột rồi OK."},
+    {"id": "d3b", "p": 0.25, "t": "Chọn Table Styles kiểu Grid Table 5 - Accent 5.",
+     "hint": "Chọn bảng > Table Design > Table Styles > nhóm Grid Tables > Grid Table 5 Dark - Accent 5."},
+    {"id": "d4a", "p": 0.25, "t": "Chèn trang trắng ở đầu tài liệu, nhập \"MỤC LỤC\" và tạo mục lục tự động tham chiếu Heading 1 và Heading 2.",
+     "hint": "Ctrl+Home, Insert > Blank Page, gõ MỤC LỤC, xuống dòng. References > Table of Contents > Custom Table of Contents, Show levels = 2 (Heading 1 và Heading 2) > OK. Làm sau khi đã gán style để mục lục có nội dung."},
+    {"id": "d4b", "p": 0.25, "t": "Chèn trang bìa kiểu Grid cho tài liệu.",
+     "hint": "Insert > Cover Page > Grid. Không điền họ tên hay mã sinh viên vào trang bìa (bài chấm theo phách), nên xoá hoặc để trống các ô thông tin cá nhân."},
+    {"id": "d5", "p": 2.0, "t": "Di chuyển đến cuối tài liệu, chèn trang trắng, dùng Times New Roman 13 và soạn thảo giấy giới thiệu theo mẫu.", "img": "word_giay-gioi-thieu.png",
+     "hint": "Ctrl+End, Insert > Blank Page. Đầu giấy: bảng 2 cột không viền (trái: TÊN CQ, TC CHỦ QUẢN / TÊN CƠ QUAN, TỔ CHỨC / Số; phải: CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM / Độc lập - Tự do - Hạnh phúc / địa danh, ngày... tháng... năm...). Chỉ số trên 1, 2, 3, 4: Ctrl+Shift+=. Tiêu đề GIẤY GIỚI THIỆU canh giữa, đậm. Các dòng Ông (bà), Chức vụ, Được cử đến, Về việc: dùng Tab có đường chấm (Paragraph > Tabs > Leader ......). Cuối giấy: bảng 2 cột không viền (Nơi nhận | QUYỀN HẠN, CHỨC VỤ CỦA NGƯỜI KÝ). Phần này 2.0đ, nên làm giống mẫu nhất có thể về nội dung, canh lề, đậm/nghiêng."}
+   ]
+  },
+  {
+   "name": "PowerPoint", "points": 1.0,
+   "intro": "Sao chép Dulieuthi-PowerPoint.pptx vào thư mục BaithiPowerPoint (hoặc theo yêu cầu của cán bộ coi thi nếu thi lại), đổi tên thành BaithiPowerPoint.pptx, rồi làm các yêu cầu sau.",
+   "items": [
+    {"id": "p1", "p": 0.25, "t": "Định dạng tất cả slide có Themes: Mytheme.thmx được cho sẵn.",
+     "hint": "Design > Themes > mở danh sách > Browse for Themes, chọn Mytheme.thmx (file cho sẵn trong thư mục dữ liệu PowerPoint)."},
+    {"id": "p2", "p": 0.25, "t": "Slide 3: chuyển phần nội dung sang SmartArt kiểu Basic Chevron Process và chọn SmartArt Styles kiểu Bird's Eye Scene.",
+     "hint": "Chọn khung nội dung slide 3 > Home > Convert to SmartArt Graphic > More SmartArt Graphics > Process > Basic Chevron Process. SmartArt Design > SmartArt Styles > nhóm 3-D > Bird's Eye Scene."},
+    {"id": "p3", "p": 0.25, "t": "Slide 6: chèn đồ thị dạng 3-D Column, dữ liệu lấy từ file Dulieu.xlsx, Chart Style là Style 2.",
+     "hint": "Slide 6 > Insert > Chart > Column > 3-D Column. Trong bảng dữ liệu của đồ thị, dán dữ liệu A1:D5 copy từ Dulieu.xlsx (HANOI, DANANG, HCM; PHP, ASP, JSP, PYTHON), đóng cửa sổ dữ liệu. Chart Design > Chart Styles > Style 2."},
+    {"id": "p4", "p": 0.25, "t": "Gán hiệu ứng cho tiêu đề của tất cả slide kiểu Fly In, và nội dung của tất cả slide kiểu Bounce.",
+     "hint": "Cách nhanh: View > Slide Master, chọn khung tiêu đề > Animations > Fly In; chọn khung nội dung > More Entrance Effects > Bounce; Close Master View. Sau đó kiểm tra từng slide (Animations > Animation Pane). Nếu slide nào không nhận, gán trực tiếp hoặc dùng Animation Painter."}
+   ]
+  },
+  {
+   "name": "Excel", "points": 4.0,
+   "intro": "Sao chép DuLieuLambai-Excel.xlsx vào thư mục BaithiExcel (hoặc theo yêu cầu của cán bộ coi thi nếu thi lại), đổi tên thành BaithiExcel.xlsx. Sheet BaiLam là bài làm, sheet DuLieuTra là bảng tra, hai sheet phải khác nhau. Công thức mẫu bên dưới giả định dữ liệu bắt đầu ở dòng 6, cột B là Mã hàng, C là Tên hàng, D là Ngày nhập, E là Số lượng, F là Đơn giá, G là Thành tiền, H là Thành tiền VND, I là Ghi chú; bảng tra DuLieuTra!B4:E7; tỷ giá 1 ở H2, tỷ giá 2 ở H3.",
+   "items": [
+    {"id": "e1", "p": 0.5, "t": "Tên hàng: dựa vào 2 ký tự đầu của Mã hàng tra trong Bảng tra ở sheet DuLieuTra.",
+     "hint": "C6: =VLOOKUP(LEFT(B6,2),DuLieuTra!$B$4:$E$7,2,0), rồi kéo xuống.",
+     "check": "Cà phê, Cà phê, Đường, Đường, Ngũ Cốc, Sữa, Cà phê, Sữa, Đường (theo thứ tự 9 dòng)."},
+    {"id": "e2", "p": 0.5, "t": "Số lượng: dựa vào 3 ký tự cuối của Mã hàng, chuyển thành kiểu số, đơn vị hiển thị là \"thùng\" (ví dụ CF-X-041 thành 41 thùng).",
+     "hint": "E6: =VALUE(RIGHT(B6,3)). Format Cells > Number > Custom, gõ: 0 \"thùng\". Giá trị vẫn là số, chỉ hiển thị thêm chữ thùng.",
+     "check": "41, 52, 261, 111, 131, 252, 373, 121, 50 (hiển thị như \"41 thùng\")."},
+    {"id": "e3", "p": 0.5, "t": "Đơn giá: dựa vào 2 ký tự đầu của mã hàng tra trong Bảng tra, nếu ký tự thứ tư là U thì lấy Đơn giá 1, nếu E thì lấy Đơn giá 2.",
+     "hint": "F6: =VLOOKUP(LEFT(B6,2),DuLieuTra!$B$4:$E$7,IF(MID(B6,4,1)=\"U\",3,4),0). Ký tự thứ tư của CF-U-041 là U (C=1, F=2, dấu - =3, U=4).",
+     "check": "100, 95, 50, 55, 67, 68, 100, 65, 50."},
+    {"id": "e4", "p": 0.5, "t": "Thành tiền = số lượng * đơn giá, nếu mặt hàng là \"Đường\" có số lượng lớn hơn 100 thì giảm 5% đơn giá, các trường hợp khác không giảm.",
+     "hint": "G6: =E6*IF(AND(C6=\"Đường\",E6>100),F6*0.95,F6).",
+     "check": "4100; 4940; 12397,5; 5799,75; 8777; 17136; 37300; 7865; 2500."},
+    {"id": "e5", "p": 0.5, "t": "Thành tiền VND: dựa vào Thành tiền và Bảng tỷ giá, ký tự thứ tư của Mã hàng là U thì lấy tỷ giá 1, là E thì lấy tỷ giá 2. Định dạng đơn vị tiền tệ VNĐ.",
+     "hint": "H6: =G6*IF(MID(B6,4,1)=\"U\",$H$2,$H$3). Format Cells > Custom: #,##0 \"VNĐ\" (hoặc Currency với ký hiệu ₫ nếu đề không nói rõ).",
+     "check": "92.250.000; 113.620.000; 285.142.500; 130.494.375; 201.871.000; 385.560.000; 839.250.000; 180.895.000; 57.500.000."},
+    {"id": "e6", "p": 0.5, "t": "Ghi chú: điền chữ \"Trọng điểm tháng 6\" cho những mặt hàng có số lượng >= 100 và ngày nhập trong tháng 6.",
+     "hint": "I6: =IF(AND(E6>=100,MONTH(D6)=6),\"Trọng điểm tháng 6\",\"\"). Nếu cột Ngày nhập hiện số như 43960, định dạng lại thành dd/mm/yyyy để kiểm tra.",
+     "check": "Chỉ DG-E-261 (08/06/2020) và NC-E-131 (01/06/2020) có chữ \"Trọng điểm tháng 6\"."},
+    {"id": "e7", "p": 0.5, "t": "Thực hiện bảng thống kê như hình bên cạnh và vẽ biểu đồ 3-D Pie.", "img": "excel_bang-thong-ke.png",
+     "hint": "Dựng bảng 2 cột Tên hàng | Tổng số lượng (Cà phê, Đường, Ngũ Cốc, Sữa). Ô tổng: =SUMIF($C$6:$C$14,tên_hàng,$E$6:$E$14). Chọn bảng > Insert > Pie > 3-D Pie.",
+     "check": "Cà phê 466; Đường 422; Ngũ Cốc 131; Sữa 373."},
+    {"id": "e8", "p": 0.5, "t": "Rút trích những mặt hàng nhập trong tháng 6 và có số lượng >= 100, copy kết quả và paste dưới bảng dữ liệu chính (cách 3 dòng).",
+     "hint": "Dùng Advanced Filter: tạo vùng điều kiện ở chỗ trống (một dòng tiêu đề + một dòng điều kiện). Với điều kiện tháng 6, dùng 2 cột \"Ngày nhập\" (>=01/06/2020 và <=30/06/2020) cùng cột \"Số lượng\" (>=100) trên cùng một dòng điều kiện. Data > Advanced > Copy to another location, chọn List range, Criteria range, Copy to là ô cách bảng chính 3 dòng. Nếu tự gõ công thức làm điều kiện, ô tiêu đề của cột đó phải khác mọi tiêu đề trong bảng.",
+     "check": "Ra đúng 2 dòng: DG-E-261 và NC-E-131."}
+   ]
+  }
+ ]
+}

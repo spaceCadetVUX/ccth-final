@@ -41,11 +41,11 @@ Tài liệu: `giao-trinh/IU05.pdf`, `de-thuc-hanh/thuc-hanh-powerpoint/`.
 
 ## Giai đoạn 4: Thi thử (15–19/10)
 
-Dùng 5 đề `de-thuc-hanh/KHTN-2017_mau2–6.pdf`, mỗi đề gồm Windows, Word, Excel, PowerPoint trong 120 phút. Đây là đề cũ của trường khác, nhưng cấu trúc giống thực hành thật.
+**Làm trước tiên: Đề mẫu thực hành IUH chính thức** (`de-mau-iuh/`, 90 phút, Windows 1đ + Word 4đ + PowerPoint 1đ + Excel 4đ), có đủ dữ liệu làm bài và checklist chấm điểm trong app (tab Đề thực hành). Sau đó dùng 5 đề `de-thuc-hanh/KHTN-2017_mau2–6.pdf` (Windows, Word, Excel, PowerPoint trong 120 phút) làm đề luyện thêm. Đây là đề cũ của trường khác, không phải đề IUH.
 
 | Ngày | Nội dung |
 |---|---|
-| 15/10 | Thi thử đề mau2, đủ 120 phút, không tra tài liệu. Ghi lại lỗi mắc phải |
+| 15/10 | Làm Đề mẫu IUH đủ 90 phút, không tra tài liệu, chấm bằng checklist. Ghi lại lỗi mắc phải. (Chưa kịp thì làm ngay hôm nay, rồi lặp lại 1 lần nữa trước ngày thi) |
 | 16/10 | Sửa lỗi ngày trước, luyện lại đúng phần yếu (Excel hoặc Word) |
 | 17/10 | Thi thử đề mau3 |
 | 18/10 | Thi thử đề mau4, rồi sửa lỗi |
@@ -56,21 +56,23 @@ Dùng 5 đề `de-thuc-hanh/KHTN-2017_mau2–6.pdf`, mỗi đề gồm Windows, 
 - **20/10:** ôn nhẹ các lỗi hay sai, chuẩn bị đồ, ngủ sớm. Không học thêm kiến thức mới.
 - **21/10:** thi. Mang **CCCD, thẻ dự thi, bút bi**, có mặt trước giờ thi 30 phút.
 
-## Phân bổ giờ thực hành 120 phút (gợi ý)
+## Phân bổ giờ thực hành 90 phút theo đề mẫu IUH (gợi ý của app, không phải quy định)
 
-| Phần | Thời gian |
-|---|---|
-| Windows | 10 phút |
-| Word | 30 phút |
-| Excel | 40 phút |
-| PowerPoint | 25 phút |
-| Kiểm tra lại | 15 phút |
+| Phần | Điểm | Thời gian |
+|---|---|---|
+| Windows | 1,0 | 10 phút |
+| Word | 4,0 | 30 phút |
+| PowerPoint | 1,0 | 10 phút |
+| Excel | 4,0 | 30 phút |
+| Kiểm tra lại | | 10 phút |
 
-Đề mẫu yêu cầu lưu file đúng tên và đúng ổ đĩa (ví dụ `D:\CA1\SBD.doc`). Lưu ngay sau khi xong mỗi phần và đọc kỹ dòng lưu ý đầu đề. Sai đường dẫn lưu có thể mất trắng cả phần.
+Đề mẫu IUH: chỉ tính điểm khi lưu đúng thư mục yêu cầu (copy file dữ liệu vào `BaiThi...` rồi đổi tên `BaithiWord.docx`, `BaithiPowerPoint.pptx`, `BaithiExcel.xlsx`). Bài chấm theo phách, **không gõ họ tên hay mã sinh viên vào file bài làm** (kể cả trang bìa Word). Lưu ngay sau khi xong mỗi phần.
+
+Đề luyện của trường khác (KHTN 120 phút, Cao Thắng `D:\CA1\SBD.doc`) có quy định lưu file khác, đừng nhầm với đề IUH.
 
 ## Lưu ý
 
-- **Phiên bản Office:** đề cũ dùng Office đời cũ (.doc/.xls). Phòng thi IUH dùng phiên bản nào chưa có nguồn xác nhận. Nếu Trung tâm không nói rõ, hãy tập cả cách làm trên bản Office bạn đang dùng.
+- **Phiên bản Office:** đề luyện của trường khác dùng Office đời cũ (.doc/.xls). Đề mẫu IUH dùng tên tính năng đời mới (File Explorer, Snipping Tool, WordArt "Fill - Gold, Accent 4", Table Style "Grid Table 5") và file .docx/.xlsx/.pptx, nên nhiều khả năng phòng thi dùng Windows 8/10 và Office 2013 trở lên, nhưng chưa có nguồn xác nhận. Hãy tập trên bản Office bạn đang có (máy bạn có Office 16).
 - **Trắc nghiệm:** ngân hàng 800 câu có đáp án đang bị khoá mật khẩu (`can-mat-khau/`), nên phần trắc nghiệm dựa vào giáo trình và các trang thi thử online.
 - **Ngày thi lần 1 tháng 10:** thông báo của Trung tâm không ghi rõ. Nếu bạn thi lần 1, phải nén lộ trình lại.
 - **Liên hệ Trung tâm Tin học:** ttth@iuh.edu.vn, 0283 894 0390 - 167. Thông báo gốc: https://itc.iuh.edu.vn/news@91-Thong-bao-.html

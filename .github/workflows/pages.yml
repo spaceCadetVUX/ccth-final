@@ -1,0 +1,43 @@
+name: Deploy Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Gom app và tài liệu vào site
+        run: |
+          # data.js trỏ tới ../de-thuc-hanh nên giữ nguyên cấu trúc thư mục
+          mkdir _site
+          cp -r app giao-trinh de-thuc-hanh _site/
+          cat > _site/index.html <<'EOF'
+          <!doctype html>
+          <html lang="vi"><head><meta charset="utf-8">
+          <title>Mẫu đề ôn trắc nghiệm tin học</title>
+          <meta http-equiv="refresh" content="0; url=app/">
+          <link rel="canonical" href="app/">
+          </head><body><a href="app/">Mẫu đề ôn trắc nghiệm tin học</a></body></html>
+          EOF
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4
